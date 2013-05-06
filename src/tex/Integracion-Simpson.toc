@@ -1,5 +1,0 @@
-\select@language {spanish}
-\contentsline {chapter}{\numberline {1}Motivaci\'on y objetivos}{5}
-\contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{6}
-\contentsline {chapter}{\numberline {3}Procedimiento experimental}{7}
-\contentsline {chapter}{\numberline {4}Conclusiones}{8}
