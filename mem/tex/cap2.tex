@@ -4,15 +4,15 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Se puede decir que uno de los problemas más frecuentes en las matemáticas es el cálculo del área que obtiene a 
-apartir de una funcion f(x), el eje x y los límites a y b.Por ejemplo, sí se quiere calcular el área de la figura 1, 
-hau que recalcar que dicha área está comprendido entre los límites a y b, y por debajo de la funcion f(x):
+Se puede decir que uno de los problemas más frecuentes en las matemáticas es el cálculo del área que se obtiene a 
+apartir de una funcion f(x), el eje x y los límites a y b.Por ejemplo, si se quiere calcular el área de la figura 1, 
+hay que recalcar que dicha área está comprendida entre los límites a y b, y por debajo de la funcion f(x):
  
 %\begin{center}
 %\includegraphics[width=0.2\textwidth]{mem/images/imagen1}\\[0.25cm]
 %\end{center}
 
-Partiendo de que se conoce la función y los valores de a y b: b se considera el límite superior y a el límite inferior. Aquí se 
+Partiendo de que se conoce la función y los valores de a y b; considerándose b como el límite superior y a como el inferior, se 
 puede obtener dos tipos de soluciones:
 
 \begin{itemize}
@@ -20,7 +20,7 @@ puede obtener dos tipos de soluciones:
 \item Soluciones numéricas: se calcula de manera numérica una estimación o aproximacion del área.
 \end{itemize}
 
-Respecto a estos tipos de soluciones se sabe de antemano que las solcuiones algebraicas son mejores que las numéricas, dado que son exactas. Pero se da el caso de que a veces, la complejidad de las funciones hace difícil la obtención de la solcuión algebraica, por lo que la solción numérica permite ahorrar tiempo. Como ejemplo de esta aproximación se tiene el Método de Simpson:
+Respecto a estos tipos de soluciones se sabe de antemano que las solcuiones algebraicas son mejores que las numéricas, dado que son exactas. Pero se da el caso de que a veces, la complejidad de las funciones hace difícil la obtención de la solución algebraica, por lo que la solción numérica permite ahorrar tiempo. Como ejemplo de esta aproximación se tiene el Método de Simpson.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -46,7 +46,7 @@ Respecto a estos tipos de soluciones se sabe de antemano que las solcuiones alge
 		\[ \int_{-h}^{h}\left(\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x=\left[\frac{\textup{a}x^{3}}
 		{3}+\frac{\textup{b}x^{2}}{2}+\textup{c}x\right]_{-h}^{h} \] 
 		
-		Si se remplazan cada uno de los limites se obtiene lo siguiente:
+		Si se reemplazan cada uno de los límites se obtiene lo siguiente:
 		
 		\[\left[\frac{\textup{a}\textup{h}^3}{3} + \frac{\textup{b}\textup{h}^2}{2} + \textup{c}\textup{h}\right] - \left[-
 		\frac{\textup{a}\textup{h}^3}{3} + \frac{\textup{b}\textup{h}^2}{2} - \textup{c}\textup{h}\right]\]
@@ -109,9 +109,9 @@ Respecto a estos tipos de soluciones se sabe de antemano que las solcuiones alge
 	4y_{1} + y_{2}\right] = \textup{A}_{1}  $.
 
 
-	Ahora se interpreta la Ecuación 5 con base en la sub área seleccionada $\textup{A}_{1}$ para el desarrollo del método de Simpson, se diría que el área del segmento es igual a la suma de la altura o función evaluada en el lado izquierdo mas cuatro veces la función evaluada en la parte central de la sub área mas la función evaluada en el lado derecho de la sub área, y todo ello multiplicado por el ancho del sub área y dividido por 3.
+	Ahora se interpreta la Ecuación 5 con base en la sub área seleccionada $\textup{A}_{1}$ para el desarrollo del método de Simpson, se diría que el área del segmento es igual a la suma de la altura o función evaluada en el lado izquierdo más cuatro veces la función evaluada en la parte central de la sub área más la función evaluada en el lado derecho de la sub área, y todo ello multiplicado por el ancho del sub área y dividido por 3.
 	
-	Si se toma a y b como $ x_{0} $ y $ x_{2} $, y $ \textup{f}_{i}\left(x_{i}\right) $ se representa mediante un polinomio de Lagrange de segundo orden, luego la integral que quedaría seria la siguiente:
+	Si se toma a y b como $ x_{0} $ y $ x_{2} $, y $ \textup{f}_{i}\left(x_{i}\right) $ se representa mediante un polinomio de Lagrange de segundo orden, luego la integral que quedaría sería la siguiente:
 	
 	\[ \textup{I} = \int_{x_{0}}^{x_{2}}\left[\frac{(x - x_{1})(x - x_{2})}{(x_{0} - x_{1})(x_{0} - x_{2})}\textup{f}(x_{0}) + \frac{(x 
 	- x_{1})(x - x_{2})}{(x_{1} - x_{0})(x_{1} - x_{2})}\textup{f}(x_{1}) + \frac{(x - x_{1})(x - x_{1})}{(x_{2} - x_{0})(x_{2} - 
