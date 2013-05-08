@@ -4,29 +4,105 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Podemos decir que uno de los problemas más frecuentes en las matemáticas es el cálculo del área que obtiene a 
-apartir de una funcion f(x), el eje x y los límites a y b.Por ejemplo, queremos calcular el área de la figura 1, 
-recaslcando que dicha área está comprendido entre los límites a y b, y por debajo de la funcion f(x):
+Se puede decir que uno de los problemas más frecuentes en las matemáticas es el cálculo del área que obtiene a 
+apartir de una funcion f(x), el eje x y los límites a y b.Por ejemplo, sí se quiere calcular el área de la figura 1, 
+hau que recalcar que dicha área está comprendido entre los límites a y b, y por debajo de la funcion f(x):
  
  %aqui va el includegrafic de la fichura 1
 
-Partiendo de que conocemos la función y los valores de a y b: b lo consideramos como el límite superior y a como 
-el límite inferior. Podemos obtener dos tipos de soluciones:
+Partiendo de que se conoce la función y los valores de a y b: b se considera el límite superior y a el límite inferior. Aquíse 
+puede obtener dos tipos de soluciones:
 
 \begin{itemize}
-\item Soluciones algebraicas: obtenemos una fórmula exacta y precisa del área solicitada.
-\item Soluciones numéricas: calculamos de manera numérica una estimación o aproximacion del área.
+\item Soluciones algebraicas: se obtiene una fórmula exacta y precisa del área solicitada.
+\item Soluciones numéricas: se calcula de manera numérica una estimación o aproximacion del área.
 \end{itemize}
 
-Respecto a estos tipos de soluciones sabemos de antemano que las solcuiones algebraicas son mejores que las numéricas, dado que son exactas. Pero se da el caso de que a veces, la complejidad de las funciones hace difícil la obtención de la solcuión algebraica, por lo que la solción numérica nos permite ahorrar tiempo. Como ejemplo de esta aproximación tenemos el Método de Simpson:
+Respecto a estos tipos de soluciones se sabe de antemano que las solcuiones algebraicas son mejores que las numéricas, dado que son exactas. Pero se da el caso de que a veces, la complejidad de las funciones hace difícil la obtención de la solcuión algebraica, por lo que la solción numérica permite ahorrar tiempo. Como ejemplo de esta aproximación se tiene el Método de Simpson:
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{Primer apartado del segundo capítulo}
+\section{Método de Simpson}
 \label{2:sec:1}
-  Primer párrafo de la primera sección.
+	El método de Simpson se trata de una manera de obtener una estimación aproximada, pero aún más exacta de una integral, consiste en usar polinomios de orden superior para conectar los puntos, concretamente de orden 2, es decir, de la forma: $ ax^2 + bx + c $.
 
-\section{Segundo apartado del segundo capítulo}
+	Se les llama reglas de Simpson a las fórmulas que resultan de calcular la integral bajo estos polinomios.
+	
+	En este procedimiento, se toma el intervalo de anchura 2h, comprendido entre $x_{i}$ y $ x_{i+2} $, y se sustituye la funcion f(x) por la parábola que pasa por los puntos $ (x_{i},y_{i}) $, $ (x_{i+1},y_{i+1}) $, y $ (x_{i+2},y_{i+2}) $.
+
+\pagebreak
+\section{Deducción del modelo a partir de la Ecuación de la parábola}
 \label{2:sec:2}
-  Primer párrafo de la segunda sección.
+	Para demostrar el método de Simpson se asume cada sub área como un pequeño arco de parábola de la forma $ ax^2 + bx + c $ con límites de esta manera: límite inferior en -h , límite superior en h y por ende la mitad de la sub área se encontrará en el punto 0, tal y como se ve en la figura 2.
+	
+	%aqui va el includegrafic de la fichura 2
+		Se procede a la integración de dicho arco de parábola entre los límites descritos:
+		
+		\[ \int_{-h}^{h}(\text{a}x^2 + \text{b}x + \text{c})\text{d}x=\left[\frac{\text{a}x^{3}}{3}+\frac{\text{b}x^{2}} 	    
+		{2}+\text{c}x\right]_{-h}^{h} \] 
+		
+		Si se remplazan cada uno de los limites se obtiene lo siguiente:
+		
+		\[\left[\frac{\text{a}\text{h}^3}{3} + \frac{\text{b}\text{h}^2}{2} + \text{c}\text{h}\right] - \left[-
+		\frac{\text{a}\text{h}^3}{3} + \frac{\text{b}\text{h}^2}{2} - \text{c}\text{h}\right]\]
+		
+		Si se quitan los corchetes se tiene que:
+		
+		\[\frac{\text{a}\text{h}^3}{3} + \frac{\text{b}\text{h}^2}{2} + \text{c}\text{h} + \frac{\text{a}\text{h}^3}{3} -    				        \frac{\text{b}\text{h}^2}{2} + \text{c}\text{h}=2\frac{\text{a}\text{h}^3}{2\text{c}\text{h}}\]
+		
+		Y si se simplifica obtenemos la ecuación 1 que se muestra a continuación:
+		
+		Ecuación 1: \[\int_{-h}^{h}(\text{a}x^2 + \text{b}x + \text{c})\text{d}x=\frac{\text{h}}{3}\left[2\text{a}\text{h}^2 +    
+		6\text{c}\right]\]
+		
+	%aqui va el includegrafic de la ficgura 3
+	
+	En la figura 3 se observa, respecto a las notaciones, las siguientes igualdades:
+	
+	\begin{itemize}
+    \item $ \text{f}x_{i}=y_{i}=\text{f}\text{(-h)} $
+    \item $ \text{f}x_{i+1}=y_{i+1}=\text{f}(0) $
+    \item $ \text{f}x_{i+2}=y_{i+2}=\text{f}\text{(h)} $
+    \end{itemize}
+\pagebreak 
+    Entonces se podría obtener, evaluando la ecuación general $ \text{a}x^2 + \text{b}x + \text{c} $ en cada uno de los puntos de la sub área [-h,0,h], el siguiente sistema de ecuaciones:
+	
+	$ \text{f}\text{(-h)}=\text{a}\text{h}^2 - \text{b}\text{h} + \text{c} $, se puede tomar esta altura como 
+	$ y_{0}=\text{f}x_{i}$
+	
+	$ \text{f}(0)=\text{c} $, se toma esta altura como $ y_{1}=\text{f}x_{i+1} $	
+	
+	$ \text{f}\text{(h)}=\text{a}\text{h}^2 + \text{b}\text{h} + \text{c} $, y esta altura como $ y_{2}=\text{f}x_{i+2} $
+	
+	De lo anterior se puede deducir las siguientes dos ecuaciones:
+	
+	Ecuación 2: $ y_{0} + y_{2} = 2\text{a}\text{h}^2 + 2\text{c} $
+	
+	Ecuación 3: $ y_{i}=\text{c} $
+	
+	Si se vuelve a la Ecuación 1 se ve que se puede expresar igualmente de la siguiente forma:
+	
+	Ecuación 4: $ \int_{-h}^{h}(\text{a}x^2 + \text{b}x + \text{c})\text{d}x = \frac{\text{h}}{3}\left[2\text{a}\text{h}^2 +    
+	2\text{c} + 4\text{c}\right] $
+		
+	Si se remplaza las ecuanciones 2 y 3 en la Ecuación 4 se obtiene que:
+	
+	Ecuación 5: $ \int_{-h}^{h}(\text{a}x^2 + \text{b}x + \text{c})\text{d}x = \frac{\text{h}}{3}\left[y_{0} + 4y_{1} + y_{2}\right] = 
+	\text{A}_{1}  $
+\pagebreak	
+	Ahora se interpreta la Ecuación 5 con base en la sub área seleccionada $\text{A}_{1}$ para el desarrollo del método de Simpson, se diría que el área del segmento es igual a la suma de la altura o función evaluada en el lado izquierdo mas cuatro veces la función evaluada en la parte central de la sub área mas la función evaluada en el lado derecho de la sub área, y todo ello multiplicado por el ancho del sub área y dividido por 3.
+	
+	Si se toma a y b como $x_{0}$ y $x_{2}$, y $\text{f_{i}}(x_{i})$ se representa mediante un polinomio de Lagrange de segundo orden, luego la integral que quedaría seria la siguiente:
+	
+	\[ \text{I} = \int_{x_{0}}^{x_{2}}\left[\frac{(x - x_{1})(x - x_{2})}{(x_{0} - x_{1})(x_{0} - x_{2})}\text{f}(x_{0}) + \frac{(x - 
+	x_{1})(x - x_{2})}{(x_{1} - x_{0})(x_{1} - x_{2})}\text{f}(x_{1}) + \frac{(x - x_{1})(x - x_{1})}{(x_{2} - x_{0})(x_{2} - 
+	x_{1})}\text{f}(x_{2})\right]\text{d}x\]	
+	
+	Después de integrar y de reordenar los términos, se obtiene como resultado la siguiente ecuación:
+	
+	\[\text{I} = (\text{b}-\text{a})\frac{\text{f}(x_{0}) + 4\text{f}(x_{1}) + \text{f}(x_{2})}{6}\]
+	
+	
+            		
+		
 
