@@ -3,30 +3,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+En las matemáticas hay que decir que el cálculo de áreas es uno de los problemas que más frecuentemente se le presentan a 
+las personas que se encuentran dentro del mundo de las matemáticas. Para la realización de este cálculo se tiene que 
+hacer uso de una función f(x), el eje x y los límites a y b.Por ejemplo, para realizar el cálculo del área que se observa 
+en la figura 1 hay que recalcar previamente que dicha área se encuentra comprendida entre los límites a y b, y por debajo 
+de la función f(x).
 
-Se puede decir que uno de los problemas más frecuentes en las matemáticas es el cálculo del área que se obtiene a 
-apartir de una funcion f(x), el eje x y los límites a y b.Por ejemplo, si se quiere calcular el área de la figura 1, 
-hay que recalcar que dicha área está comprendida entre los límites a y b, y por debajo de la funcion f(x):
- 
 %\begin{center}
 %\includegraphics[width=0.2\textwidth]{mem/images/imagen1}\\[0.25cm]
 %\end{center}
 
-Partiendo de que se conoce la función y los valores de a y b; considerándose b como el límite superior y a como el inferior, se 
-puede obtener dos tipos de soluciones:
+Para dicha resolcuión se parte de que se conoce la funcion f(x) y los valores de a y b, considerando a tales valores, el límite inferior y el límite superior, respectivamente. Tras aver realizado dicho cálculo se puede llegar a obtener dos tipos de soluciones:
 
 \begin{itemize}
 \item Soluciones algebraicas: se obtiene una fórmula exacta y precisa del área solicitada.
 \item Soluciones numéricas: se calcula de manera numérica una estimación o aproximacion del área.
 \end{itemize}
 
-Respecto a estos tipos de soluciones se sabe de antemano que las solcuiones algebraicas son mejores que las numéricas, dado que son exactas. Pero se da el caso de que a veces, la complejidad de las funciones hace difícil la obtención de la solución algebraica, por lo que la solción numérica permite ahorrar tiempo. Como ejemplo de esta aproximación se tiene el Método de Simpson.
+Analizando estos dos tipos de soluciones, se puede deducir de antemano que las soluciones algebraicas son mucho mejores que las soluciones numéricas doado que son más exactas. Pero en alguna ocación se puede dar el caso en el que la obtención de las soluciones algebraicas es bastante dificultoso y latoso dada la complejidad de algunas funciones, por ello en estos casos es normal utilizar las soluciones numéricas que permiten ahorrar tiempo. Como ejemplo de ellos se tine el Método de Simpson.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \section{Método de Simpson}
 \label{2:sec:1}
-	El método de Simpson se trata de una manera de obtener una estimación aproximada, pero aún más exacta de una integral, consiste en usar polinomios de orden superior para conectar los puntos, concretamente de orden 2, es decir, de la forma: $ ax^2 + bx + c $.
+	El método de Simpson  consiste en usar polinomios de orden superior para conectar los puntos, concretamente de orden 2, es decir, de la forma: $ ax^2 + bx + c $, de manera o con el fín de obtener una estimación más exacta de una integral.
 
 	Se les llama reglas de Simpson a las fórmulas que resultan de calcular la integral bajo estos polinomios.
 	
@@ -35,7 +35,7 @@ Respecto a estos tipos de soluciones se sabe de antemano que las solcuiones alge
 
 \section{Deducción del modelo a partir de la Ecuación de la parábola}
 \label{2:sec:2}
-	Para demostrar el método de Simpson se asume cada sub área como un pequeño arco de parábola de la forma $ ax^2 + bx + c $ con límites de esta manera: límite inferior en -h , límite superior en h y por ende la mitad de la sub área se encontrará en el punto 0, tal y como se ve en la figura 2.
+	Para demostrar el método de Simpson hay que asumir que cada sub área es un pequeño arco de parábola de la forma $ ax^2 + bx + c $ cuyos límites son los siguientes: límite inferior en -h , límite superior en h y por ende la mitad de la sub área se encontrará en el punto 0, tal y como se ve en la figura 2.
 	
 %\begin{center}
 %\includegraphics[width=0.2\textwidth]{mem/images/imagen2}\\[0.25cm]
