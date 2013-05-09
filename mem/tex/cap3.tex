@@ -2,7 +2,7 @@
 % Chapter 3: Procedimiento experimental 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-  A continuación se procederá a describir detalladamente el experimento llevado a cabo.
+	A continuación se procederá a describir detalladamente el experimento llevado a cabo.
 Se hablará de en qué consiste exactamente, en qué se basa y como se ha planteado su
 resolución. Seguidamente, se enumerará el material necesario para realizar la prueba.
 Otro apartado estará dedicado a mencionar los resultados que se han obtenido sin realizar
@@ -13,13 +13,24 @@ obtenido y, así mismo, lo que ello supone.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
 \label{3:sec:1}
+	 Para la realización del experimento se ha utilizado básicamente un editor de texto
+para escribir el código fuente de Python y un intérprete del mismo. El experimento consiste
+en la realización de un programa en Python que sea capaz de calcular el valor de una integral
+definida en un intervalo cerrado, que a su vez calcule su aproximación por el método de Simpson,
+halle los errores relativo y absoluto entre los dos valores obtenidos y realice la representación
+gráfica de la función que se desea integrar y la parábola generada por el método utilizado
+para su aproximación. Como hemos mencionado anteriormente, se ha trabajado con una
+función dada ($f(x) = \frac{1}{1+e^{x}}$) definida en el intervalo $x \in [1, 6]$.
 
-bla, bla, etc. 
+	Hay que considerar que la integral de f es $f'(x) = \ln{e^{x}} - \ln({e^{x}+1)}$ para poder
+resolver la integral y hallar el valor real del área. También debemos saber que la parábola
+que se ha de representar está formada por los puntos f(a),f(b) y f($\frac{a+b}{2}$), por
+lo que la ecuación es $y = 0.0169x^2 - 0.17x + 0.422 $. 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
-  En cuestión al material empleado para realizar el experimento se ha utilizado un
+	En cuestión al material empleado para realizar el experimento se ha utilizado un
 computador con un procesador Intel(R) Core(TM)2 Quad CPU Q6600 @ 2.40GHz 2.39 GHz y 
 una memoria RAM de 3,00 GB. El sistema operativo que contenía el computador era 
 Windows 7 Home Premium de 32 bits. Para escribir los códigos fuente de LaTeX se

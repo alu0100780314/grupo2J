@@ -15,7 +15,10 @@ from math import *
 
 def ev_funcion(x):
   return 1/(1+exp(x))
-  
+
+def ev_parabola(x):
+  return 0.0169*x**2-0.17*x+0.422
+
 def ev_funcion_int(x):
   return log(exp(x))-log(exp(x)+1)
   
