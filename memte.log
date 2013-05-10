@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  10 MAY 2013 09:17
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.3.14)  10 MAY 2013 16:47
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -198,18 +198,20 @@ Overfull \hbox (3.83943pt too wide) detected at line 119
 Cap\'{\i }tulo 3.
 (./mem/tex/cap3.tex [5
 
-]
-File: mem/images/figura1.eps Graphic file (type eps)
- <mem/images/figura1.eps> (./mem/tables/table.tex))
-[6]
-Cap\'{\i }tulo 4.
-(./mem/tex/cap4.tex) [7
+] (./mem/tables/table.tex)
+File: mem/images/rep_funcion.eps Graphic file (type eps)
+ <mem/images/rep_funcion.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [8
+ [6])
+[7]
+Cap\'{\i }tulo 4.
+(./mem/tex/cap4.tex) [8
 
 ]
 Ap\'{e}ndice A.
 (./mem/tex/apendice1.tex) [9
+
 
 ]
 Ap\'{e}ndice B.
@@ -220,11 +222,11 @@ Ap\'{e}ndice B.
 ] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
  1660 strings out of 495062
- 20093 string characters out of 1182644
- 78277 words of memory out of 3000000
+ 20101 string characters out of 1182644
+ 77277 words of memory out of 3000000
  4800 multiletter control sequences out of 15000+50000
  12622 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,542b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,7n,27p,542b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (19 pages, 27208 bytes).
+Output written on memte.dvi (19 pages, 29020 bytes).
