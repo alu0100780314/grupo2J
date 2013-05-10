@@ -13,27 +13,39 @@
 
 from matplotlib.pylab import *
 from Integracion_Simpson import *
-import numpy
-
-#def representa(x, y1, y2):
-  
 
 if __name__ == '__main__':
-  funcion='1/(1+exp(x))'
-  funcion_int='log(exp(x))-log(exp(x)+1)'
-  a=1.0
-  b=6.0
-  x = numpy.linspace(1,6,20)
-  y_f = ev_funcion(x)
-  y_p = ev_parabola(x)
-  print 'X:'
-  for i in range(x):
-    print (" %f" % i)
-  print 'Y(funcion):'
-  for i in range(y_f):
-    print (" %f" % i)
-  print 'Y(parabola):'
-  for i in range(y_p):
-    print (" %f" % i)
-#  representa(x, y_f, y_p)
+  
+  expr_f = '1/(1+exp(x))'
+  expr_p = '0.01686*x**2-0.1714*x+0.42344'
+  
+  x = linspace(1,6,20)
+  
+  y_f = zeros(len(x))
+  j=0
+  for i in x:
+     y_f[j] = ev_funcion(i)
+     j+=1
+  
+  y_p = zeros(len(x))
+  j=0
+  for i in x:
+     y_p[j] = ev_parabola(i)
+     j+=1
+
+  print '\n    X:          Y(funcion):          Y(parabola):'
+  for i in range(len(x)):
+    print (" %5f %15f %20f" % (x[i], y_f[i], y_p[i]))
+
+  plot(x, y_f, 'b', x, y_p, 'r--')
+  xlim(0, 7)
+  ylim(-0.1, 0.5)
+  xlabel('Valores de x en [1,6].')
+  ylabel('Imagenes de la funcion y la parabola.')
+  title('Representacion de f(x) y su parabola')
+  legend([expr_f, expr_p])
+  
+  savefig('rep_funcion.eps')
+  
+  show()
   
