@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}Motivaci\'on y objetivos}{1}
 \contentsline {section}{\numberline {1.1}Objetivos espec\IeC {\'\i }ficos}{1}
 \contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{2}
-\contentsline {section}{\numberline {2.1}M\'etodo de Simpson}{2}
+\contentsline {section}{\numberline {2.1}M\'etodo de Simpson}{3}
 \contentsline {section}{\numberline {2.2}Deducci\'on del modelo a partir de la Ecuaci\'on de la par\'abola}{3}
 \contentsline {chapter}{\numberline {3}Procedimiento experimental}{5}
 \contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{5}
