@@ -86,11 +86,12 @@ Especificar la motivación del trabajo
 \begin{block}{Ejemplo}
   \begin{itemize}
   \item
-   Objetivo 1 
+   Implementar un programa en Python que sea capaz de resolver el problema del cálculo del área bajo una función conocida en un 
+   intervalo cerrado.
   \pause
-
   \item
-   Objetivo 2
+   Entender los conceptos básicos de la integración aproximada empleando el método de Simpson, para porteriormente saber emplearlos
+   en Python.
 
   \end{itemize}
 \end{block}
@@ -102,11 +103,112 @@ Especificar la motivación del trabajo
 
 \begin{frame}
 \frametitle{Fundamentos Teóricos}
+	El método de Simpson se trata de un procedimiento por el cual se obtiene una estimación mas exacta de una integral. Para ello se 
+utiliza polinomios de orden superior para conectar los puntos, concretamente de orden 2, es decir, de la forma: $ ax^2 + bx + c $.
 
-Se presentarán los antecedentes teóricos y prácticos que apoyan el tema objeto
-del trabajo.
+	En este procedimiento, se toma el intervalo de anchura 2h, comprendido entre $x_{i}$ y $ x_{i+2} $, y se sustituye la funcion f(x) por la parábola que pasa por los puntos $ (x_{i},y_{i}) $, $ (x_{i+1},y_{i+1}) $, y $ (x_{i+2},y_{i+2}) $.
 
 \end{frame}
+
+\begin{frame}
+\frametitle{Fundamentos Teóricos}
+\subsection{Deducción del modelo a partir de la ecuación de la parábola}
+Para demostrar el método de Simpson hay que asumir que cada sub área es un pequeño arco de parábola de la forma $ ax^2 + bx + c $ cuyos límites son los siguientes: límite inferior en -h , límite superior en h y por ende la mitad de la sub área se encontrará en el punto 0, tal y como se ve en la figura 2.
+	
+%\begin{center}
+%\includegraphics[width=0.2\textwidth]{mem/images/imagen2}\\[0.25cm]
+%\end{center}	
+	
+		Se procede a la integración de dicho arco de parábola entre los límites descritos:
+		
+		\[ \int_{-h}^{h}\left(\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x=\left[\frac{\textup{a}x^{3}}
+		{3}+\frac{\textup{b}x^{2}}{2}+\textup{c}x\right]_{-h}^{h} \] 
+		
+		Si se reemplazan cada uno de los límites y se quitan los corchetes se obtiene lo siguiente:
+		
+		\[\frac{\textup{a}\textup{h}^3}{3} + \frac{\textup{b}\textup{h}^2}{2} + \textup{c}\textup{h} + \frac{\textup{a}\textup{h}^3}{3} 
+		-  \frac{\textup{b}\textup{h}^2}{2} + \textup{c}\textup{h}=2\frac{\textup{a}\textup{h}^3}{2\textup{c}\textup{h}}\]
+		
+		Y si se simplifica obtenemos la ecuación 1 que se muestra a continuación:
+		
+		Ecuación 1: \[\int_{-h}^{h}\left((\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x=\frac{\textup{h}}
+		{3}\left[2\textup{a}\textup{h}^2  +  6\textup{c}\right]\]
+		
+%\begin{center}
+%\includegraphics[width=0.2\textwidth]{mem/images/imagen3}\\[0.25cm]
+%\end{center}
+	
+\end{frame}
+
+\begin{frame}
+\frametitle{Fundamentos Teóricos}
+	En la figura 3 se observa, respecto a las notaciones, las siguientes igualdades:
+	
+	\begin{itemize}
+    \item $ \textup{f}x_{i}=y_{i}=\textup{f}\textup{(-h)} $
+    \pause
+    \item $ \textup{f}x_{i+1}=y_{i+1}=\textup{f}(0) $
+    \pause
+    \item $ \textup{f}x_{i+2}=y_{i+2}=\textup{f}\textup{(h)} $
+    \pause
+    \end{itemize}
+
+
+    Entonces se podría obtener, evaluando la ecuación general $ \textup{a}x^2 + \textup{b}x + \textup{c} $ en cada uno de los puntos de la sub área [-h,0,h], el siguiente sistema de ecuaciones:
+	
+	$ \textup{f}\textup{(-h)}=\textup{a}\textup{h}^2 - \textup{b}\textup{h} + \textup{c} $, se puede tomar esta altura como 
+	$ y_{0}=\textup{f}x_{i}$.
+	
+	
+	$ \textup{f}(0)=\textup{c} $, se toma esta altura como $ y_{1}=\textup{f}x_{i+1} $.
+	
+	
+	$ \textup{f}\textup{(h)}=\textup{a}\textup{h}^2 + \textup{b}\textup{h} + \textup{c} $, y esta altura como $ 
+	y_{2}=\textup{f}x_{i+2}$.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Fundamentos Teóricos}
+	De lo anterior se puede deducir las siguientes dos ecuaciones:
+
+	
+	Ecuación 2: $ y_{0} + y_{2} = 2\textup{a}\textup{h}^2 + 2\textup{c} $.
+
+	
+	Ecuación 3: $ y_{i}=\textup{c} $.
+
+	
+	Si se vuelve a la Ecuación 1 se ve que se puede expresar igualmente de la siguiente forma:
+	
+	Ecuación 4: $ \int_{-h}^{h}\left(\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x = \frac{\textup{h}}
+	{3}\left[2\textup{a}\textup{h}^2 + 2\textup{c} + 4\textup{c}\right] $.
+
+		
+	Si se remplaza las ecuanciones 2 y 3 en la Ecuación 4 se obtiene que:
+
+	
+	Ecuación 5: $ \int_{-h}^{h}\left(\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x = \frac{\textup{h}}{3}\left[y_{0} + 
+	4y_{1} + y_{2}\right] = \textup{A}_{1}  $.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Fundamentos Teóricos}
+	Ahora se interpreta la Ecuación 5 con base en la sub área seleccionada $\textup{A}_{1}$ para el desarrollo del método de Simpson, se diría que el área del segmento es igual a la suma de la altura o función evaluada en el lado izquierdo más cuatro veces la función evaluada en la parte central de la sub área más la función evaluada en el lado derecho de la sub área, y todo ello multiplicado por el ancho del sub área y dividido por 3.
+	
+	Si se toma a y b como $ x_{0} $ y $ x_{2} $, y $ \textup{f}_{i}\left(x_{i}\right) $ se representa mediante un polinomio de Lagrange de segundo orden, luego la integral que quedaría sería la siguiente:
+	
+	\[ \textup{I} = \int_{x_{0}}^{x_{2}}\left[\frac{(x - x_{1})(x - x_{2})}{(x_{0} - x_{1})(x_{0} - x_{2})}\textup{f}(x_{0}) + \frac{(x 
+	- x_{1})(x - x_{2})}{(x_{1} - x_{0})(x_{1} - x_{2})}\textup{f}(x_{1}) + \frac{(x - x_{1})(x - x_{1})}{(x_{2} - x_{0})(x_{2} - 
+	x_{1})}\textup{f}(x_{2})\right]\textup{d}x\]	
+	
+	Después de integrar y de reordenar los términos, se obtiene como resultado la siguiente ecuación:
+	
+	\[\textup{I} = \left(\textup{b}-\textup{a}\right)\frac{\textup{f}\left(x_{0}\right) + 4\textup{f}\left(x_{1}\right) + \textup{f}\left(x_{2}\right)}{6}\]
+
+\end{frame}
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \section{Procedimiento experimental}
