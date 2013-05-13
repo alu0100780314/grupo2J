@@ -27,41 +27,62 @@ resolver la integral y hallar el valor real del área. También debemos saber que 
 que se ha de representar está formada por los puntos f(a),f(b) y f($\frac{a+b}{2}$), por
 lo que la ecuación es $y = 0.0169x^2 - 0.17x + 0.422 $. 
 
+	El programa en Python se ha dividido en dos módulos: uno para el cálculo de la integral y
+el análisis del error y otro para la representación gráfica. En el primero se han definido varias
+funciones para evaluar la función, su integral y la parábola, además de para hallar el a?ea real
+y aproximada y calcular los errores. Si se ejecuta este módulo se podrá obtener cada uno de los
+parámetros mencionados.
+
+	En el segundo módulo se han importado las funciones del primero para poder utilizar algunas. 
+Si se ejecuta, se define x como una lista de 20 valores aleatorios comprendidos entre 1 y 6 y,
+a partir de este, se crean dos listas más con los valores correspondientes a la función y a la 
+parábola. Se imprime una tabla con los valores de estas tres listas. Por último, se dibuja en 
+un sólo lienzo la función y la parábola ayudándonos de las listas y se guarda el resultado.
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
 	En cuestión al material empleado para realizar el experimento se ha utilizado un
 computador con un procesador Intel(R) Core(TM)2 Quad CPU Q6600 @ 2.40GHz 2.39 GHz y 
 una memoria RAM de 3,00 GB. El sistema operativo que contenía el computador era 
-Windows 7 Home Premium de 32 bits. Para escribir los códigos fuente de LaTeX se
+Bardinux 3.4 Beta3 de 32 bits. Para escribir los códigos fuente de LaTeX se
 usaron los programas Texmaker y Kate (versiones 3.2 y 3.8.5, respectivamente) y para 
 el código fuente de Python solamente se utilizó Kate. Además, para registrar los cambios
 realizados en el trabajo y subirlos a GitHub se hizo uso de Git (1.7.9.5). Como 
-compiladores se empleó el intérprete de Python y el compilador de Tex.
+compiladores se empleó el intérprete de Python (2.7.3) y el compilador de Tex (pdfTeX 3.1415926-1.40.10-2.2 (TeX Live 2009/Debian)).
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
 \label{3:sec:3}
-
-bla, bla, etc. 
+	Antes de detallar los resultados cabe destacar los valores de x utilizados para la elaboración
+del experimento. A continuación se exponen los valores aleatorios obtenidos en una de las 
+ejecuciones y sus correspondientes imágenes.
 
 %------------------------------------------------------------------------------
 \input{mem/tables/table.tex}
 %------------------------------------------------------------------------------
+	Como se observa, las imágenes obtenidas en x=1, x=3.5 y x=6 para las dos funciones son 
+aproximadamente iguales.
+	
+	La gráfica obtenida con estos datos es la siguiente.
 
 %------------------------------------------------------------------------------
-%\begin{figure}[!th]
+\begin{figure}[!th]
 \begin{center}
 \includegraphics[width=0.85\textwidth]{mem/images/rep_funcion.eps}
-%\caption{Gráfica de la función y su parábola}
+\caption{Gráfica de la función y su parábola}
 \label{fig:1}
 \end{center}
-%\end{figure}
+\end{figure}
 %------------------------------------------------------------------------------
+	Por otra parte, en el primer módulo, se ha obtenido que el área real por debajo de la función
+vale 0.3107860 unidades cuadradas mientras que el valor aproximado por el método Simpson vale
+0.3238858 unidades cuadradas. Tras realizar el cálculo de los errores se ha calculado que
+el error absoluto es 0.0130998039 y el error relativo es 0.0421505595.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Análisis de los resultados}
 \label{3:sec:4}
 
-bla, bla, etc. 
+...
 

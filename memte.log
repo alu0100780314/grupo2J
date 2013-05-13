@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  13 MAY 2013 16:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.3.14)  13 MAY 2013 22:54
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -200,21 +200,19 @@ Cap\'{\i }tulo 3.
 
 ] (./mem/tables/table.tex)
 File: mem/images/rep_funcion.eps Graphic file (type eps)
- <mem/images/rep_funcion.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6])
-[7]
+ <mem/images/rep_funcion.eps>)
+[6] [7] [8]
 Cap\'{\i }tulo 4.
-(./mem/tex/cap4.tex) [8
+(./mem/tex/cap4.tex) [9
+
+] [10
 
 ]
 Ap\'{e}ndice A.
 (./mem/tex/apendice1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
-
+ [11
 
 ]
 Overfull \hbox (36.25328pt too wide) in paragraph at lines 59--59
@@ -234,20 +232,16 @@ Overfull \hbox (12.62856pt too wide) in paragraph at lines 123--123
 ormada para el metodo de Simpson[] 
  []
 
-[10]) [11]
-Ap\'{e}ndice B.
-(./mem/tex/apendice2.tex) (./memte.bbl [12
-
-]) [13
+[12]) (./memte.bbl [13]) [14
 
 ] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
- 1660 strings out of 495062
- 20101 string characters out of 1182644
- 77277 words of memory out of 3000000
- 4800 multiletter control sequences out of 15000+50000
+ 1654 strings out of 495062
+ 20001 string characters out of 1182644
+ 79277 words of memory out of 3000000
+ 4797 multiletter control sequences out of 15000+50000
  12622 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,7n,27p,542b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (21 pages, 32132 bytes).
+Output written on memte.dvi (22 pages, 33760 bytes).
