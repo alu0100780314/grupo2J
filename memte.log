@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  12 MAY 2013 16:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  13 MAY 2013 16:25
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -210,14 +210,35 @@ Cap\'{\i }tulo 4.
 
 ]
 Ap\'{e}ndice A.
-(./mem/tex/apendice1.tex) [9
+(./mem/tex/apendice1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
 
 
 ]
-Ap\'{e}ndice B.
-(./mem/tex/apendice2.tex) (./memte.bbl [10
+Overfull \hbox (36.25328pt too wide) in paragraph at lines 59--59
+[]\OT1/cmtt/m/n/9 #    print ("La integral definida entre %.1f y %.1f de %s es 
+realmente %.7f unidades cuadradas." %[] 
+ []
 
-]) [11
+
+Overfull \hbox (45.70317pt too wide) in paragraph at lines 59--59
+[]\OT1/cmtt/m/n/9 #    print ("La integral definida entre %.1f y %.1f de %s es 
+aproximadamente %.7f unidades cuadradas[] 
+ []
+
+
+Overfull \hbox (12.62856pt too wide) in paragraph at lines 123--123
+[] \OT1/cmtt/m/n/9 # DESCRIPCION: Representacion de una funcion y la parabola f
+ormada para el metodo de Simpson[] 
+ []
+
+[10]) [11]
+Ap\'{e}ndice B.
+(./mem/tex/apendice2.tex) (./memte.bbl [12
+
+]) [13
 
 ] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
@@ -227,6 +248,6 @@ Here is how much of TeX's memory you used:
  4800 multiletter control sequences out of 15000+50000
  12622 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,7n,27p,542b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,7n,27p,542b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (19 pages, 29020 bytes).
+Output written on memte.dvi (21 pages, 32132 bytes).

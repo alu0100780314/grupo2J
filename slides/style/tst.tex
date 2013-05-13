@@ -1,7 +1,7 @@
 \documentclass{beamer}
 %\documentclass[xcolor=dvipsnames]{beamer}
 \usepackage[spanish]{babel}
-\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}el
 \usepackage{graphicx}
 
 \newcommand{\beamer}{\textsc{beamer}}
@@ -216,9 +216,12 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 \begin{frame}
 \frametitle{Procedimiento experimental}
 
-Ha de contar con secciones para la descripción de los experimentos y del material.
-También deber haber una sección para los resultados obtenidos y una última de
-análisis de los resultados obtenidos.
+En este apartado se procederá a describir detalladamente el experimento llevado a cabo.
+Se hablará de en qué consiste exactamente, en qué se basa y como se ha planteado su
+resolución. Posteriormente, se enumerará el material necesario para realizar la prueba y se
+mencionará los resultados que se han obtenido sin realizar ninguna objeción sobre la 
+implicación de los mismos. Por último, se hará uso de los conocimientos expuestos en los 
+Fundamentos Teóricos para poder analizar los datos que hemos obtenido y, así mismo, lo que ello supone.
 
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
@@ -227,16 +230,32 @@ análisis de los resultados obtenidos.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
-\frametitle{Generación de datos aleatoria}
-
-\begin{ejemplo}
-  \begin{itemize}
-    \item <1-> Con semilla 1 
-    \item <2-> Con semilla 10 
-    \item <3> Sin semilla 
-  \end{itemize}
-\end{ejemplo}
-
+\frametitle{Descripción de los experimentos}
+	En este experimentos se lleva a cabo la implentación e interpretación de un programa en Python que
+ este capacitado para calcular el valor de una integral definida en un intervalo cerrado, una aproximación por 
+ el método de Simpson, halle los errores relativo y absoluto entre los dos valores obtenidos y realice la representación
+gráfica de la función que se desea integrar y la parábola generada por el método utilizado
+para su aproximación.
+ 	
+ \begin{enumerate}
+    \item La función con la que se ha trabajado es: $f(x) = \frac{1}{1+e^{x}}$.
+    \pause
+    \item Y el intervalo en la se definine es: $x \in [1, 6]$.
+    \pause
+    \item Considerimos f'(x) como $\ln{e^{x}} - \ln({e^{x}+1)}$
+    \pause
+    \item La parabola ha representar viene dado por los puntos:
+    \begin{enumerate}
+      \item f(a)
+      \pause
+      \item f(b)
+      \pause
+      \item f($\frac{a+b}{2}$)
+    \end{enumerate}
+    \pause
+    \item Por tanto, la ecuación obtenida es: $y = 0.0169x^2 - 0.17x + 0.422 $
+      
+ \end{enumerate}
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 

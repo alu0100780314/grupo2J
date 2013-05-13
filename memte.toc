@@ -12,8 +12,8 @@
 \contentsline {chapter}{\numberline {4}Conclusiones}{8}
 \contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\'endice 1}{9}
 \contentsline {section}{\numberline {A.1}Algoritmo XXX}{9}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{9}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\'endice 2}{10}
-\contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{10}
-\contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{10}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{10}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{10}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\'endice 2}{12}
+\contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{12}
+\contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{12}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{12}

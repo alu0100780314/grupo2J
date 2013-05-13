@@ -8,11 +8,52 @@
 # Fichero .py
 ###################################################################################
 #
-# AUTORES
+# AUTORES:
+#  Ivan Trujillo Trujillo
+#  Samuel Santos Lucas Castilla
 #   
-# FECHA
+# FECHA: 10 de mayo de 2013
 #
 # DESCRIPCION
+#   
+#  !/usr/bin/python
+#
+#  from math import *
+#
+#  def ev_funcion(x):
+#    return 1/(1+exp(x))
+#
+#  def ev_parabola(x):
+#    return 0.01686*x**2-0.1714*x+0.42344
+#
+#  def ev_funcion_int(x):
+#  return log(exp(x))-log(exp(x)+1)
+# 
+#  def int_real(a, b):
+#    return ev_funcion_int(b)-ev_funcion_int(a)
+#
+#  def int_simpson(a, b):
+#    return ((b-a)/6)*(ev_funcion(a)+4*ev_funcion((a+b)/2)+ev_funcion(b))
+#  
+#  def error_abs(a, b):
+#    return abs(int_real(a,b)-int_simpson(a,b))
+#  
+#  def error_rel(a, b):
+#    return abs(int_real(a,b)-int_simpson(a,b))/abs(int_real(a,b))
+#  
+#  if __name__ == '__main__':
+#    funcion='1/(1+exp(x))'
+#    a=1.0
+#    b=6.0
+#
+# 
+#    print ("La integral definida entre %.1f y %.1f de %s es realmente %.7f unidades cuadradas." % 
+#    (a,b,funcion,int_real(a,b)))
+#    print ("La integral definida entre %.1f y %.1f de %s es aproximadamente %.7f unidades cuadradas
+#    por el metodo de Simpson." % (a,b,funcion,int_simpson(a,b)))
+#    print ("El error absoluto entre los dos calculos es %.10f." % error_abs(a, b))
+#    print ("El error relativo entre los dos calculos es %.10f." % error_rel(a, b))
+#
 #
 ###################################################################################
 \end{verbatim}
@@ -26,14 +67,57 @@
 \begin{footnotesize}
 \begin{verbatim}
 /###################################################################################
- # Fichero .h
+ # Fichero .py
  ###################################################################################
  #
- # AUTORES
+ # AUTORES:
+ #  Ivan Trujillo Trujillo
+ #  Samuel Santos Lucas Castilla
  #
- # FECHA
+ # FECHA: 13 de mayo de 2013
  #
- # DESCRIPCION
+ # DESCRIPCION: Representacion de una funcion y la parabola formada para el metodo de Simpson
+ #  
+ #  !/usr/bin/python
+ # 
+ #  from matplotlib.pylab import *
+ #  from Integracion_Simpson import *
+ #
+ #  if __name__ == '__main__':
+ # 
+ #   expr_f = '1/(1+exp(x))'
+ #   expr_p = '0.01686*x**2-0.1714*x+0.42344'
+ #
+ #   x = linspace(1,6,20)
+ # 
+ #   y_f = zeros(len(x))
+ #   j=0
+ #   for i in x:
+ #      y_f[j] = ev_funcion(i)
+ #      j+=1
+ #
+ #   y_p = zeros(len(x))
+ #   j=0
+ #   for i in x:
+ #      y_p[j] = ev_parabola(i)
+ #      j+=1
+ #
+ #   print '\n    X:          Y(funcion):          Y(parabola):'
+ #   for i in range(len(x)):
+ #     print (" %5f %15f %20f" % (x[i], y_f[i], y_p[i]))
+ #
+ #   plot(x, y_f, 'b', x, y_p, 'r--')
+ #   xlim(0, 7)
+ #   ylim(-0.1, 0.5)
+ #   xlabel('Valores de x en [1,6].')
+ #   ylabel('Imagenes de la funcion y la parabola.')
+ #   title('Representacion de f(x) y su parabola')
+ #   legend([expr_f, expr_p])
+ # 
+ #   savefig('rep_funcion.eps')
+ #
+ #   show()
+ #
  #
  ##################################################################################
 \end{verbatim}
