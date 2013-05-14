@@ -109,6 +109,11 @@ utilizan polinomios de orden superior para conectar los puntos, concretamente de
 
 	En este procedimiento, se toma el intervalo de anchura 2h, comprendido entre $x_{i}$ y $ x_{i+2} $, y se sustituye la funcion f(x) por la parábola que pasa por los puntos $ (x_{i},y_{i}) $, $ (x_{i+1},y_{i+1}) $, y $ (x_{i+2},y_{i+2}) $.
 
+\begin{center}
+\includegraphics[width=0.5\textwidth]{slides/img/ima1}
+\end{center}	
+	
+
 \end{frame}
 
 \begin{frame}
@@ -116,9 +121,9 @@ utilizan polinomios de orden superior para conectar los puntos, concretamente de
 \subsection{Deducción del modelo a partir de la ecuación de la parábola}
 Para demostrar el método de Simpson hay que asumir que cada sub área es un pequeño arco de parábola de la forma $ ax^2 + bx + c $ cuyos límites son los siguientes: límite inferior en -h , límite superior en h y por ende la mitad de la sub área se encontrará en el punto 0, tal y como se ve en la figura 2.
 	
-%\begin{center}
-%\includegraphics[width=0.2\textwidth]{mem/images/imagen2}\\[0.25cm]
-%\end{center}	
+\begin{center}
+\includegraphics[width=0.5\textwidth]{slides/img/ima2}
+\end{center}	
 	
 		Se procede a la integración de dicho arco de parábola entre los límites descritos:
 		
@@ -139,9 +144,9 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 		Ecuación 1: \[\int_{-h}^{h}\left((\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x=\frac{\textup{h}}
 		{3}\left[2\textup{a}\textup{h}^2  +  6\textup{c}\right]\]
 		
-%\begin{center}
-%\includegraphics[width=0.2\textwidth]{mem/images/imagen3}\\[0.25cm]
-%\end{center}
+\begin{center}
+\includegraphics[scale=•]{•}=0.2\textwidth]{slides/img/ima3}
+\end{center}
 	
 \end{frame}
 
@@ -285,7 +290,7 @@ para su aproximación.
 \frametitle{Resultados obtenidos}
 
 %------------------------------------------------------------------------------
-\input{tables/table.tex}
+\input{tables/tabla.tex}
 %------------------------------------------------------------------------------
 
 \end{frame}
@@ -300,7 +305,7 @@ para su aproximación.
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{img/figura1.eps}
+\includegraphics[width=0.75\textwidth]{img/rep_funcion.eps}
 \caption{Ejemplo de figura}
 \label{fig:1}
 \end{center}
@@ -320,10 +325,22 @@ para su aproximación.
 \begin{ejemplo}
   \begin{enumerate}
     \item
-      Conclusión 1
+      El método de Simpson es algo complicado de demostrar si no se tienen cierto conocimientos matemáticos, por eso suele ser un método más sistemático.
       \pause
     \item
-      Conclusión 2
+      El método de Simpson puede ser utilizado para comprobar el resultado de una integracion y sabemos que el error es mínimo.
+      \pause
+    \item
+      El método de Simpson facilita en gran medida la integracion de funciones muy difíciles de resolver por otros métodos.
+      \pause
+    \item
+      El método de Simpson es fácil de aplicar ya que solo hace falta utilizar una formula y hallar las imágenes de la funcion en tres puntos diferentes.
+      \pause
+    \item El método de Simpson produce una mala aproximacion si la funcion en el intervalo cerrado presenta una recta o más de una curva.
+      \pause
+    \item El método de Simpson es muy útil para funciones con una curva similar a una parábola en un intervalo cerrado.
+      \pause    
+      
   \end{enumerate}
 \end{ejemplo}
 
