@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  14 MAY 2013 18:10
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.3.14)  14 MAY 2013 17:52
+>>>>>>> 02e7162d9c5d3d7c56fa4cd4eb66971ba2178f80
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -206,10 +210,27 @@ Cap\'{\i }tulo 3.
 
 ] (./mem/tables/table.tex)
 File: mem/images/rep_funcion.eps Graphic file (type eps)
+<<<<<<< HEAD
  <mem/images/rep_funcion.eps>)
 [7] [8] [9]
 Cap\'{\i }tulo 4.
 (./mem/tex/cap4.tex) [10
+=======
+ <mem/images/rep_funcion.eps>
+[6]) [7] [8]
+Cap\'{\i }tulo 4.
+(./mem/tex/cap4.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+)
+[9
+
+] [10
+>>>>>>> 02e7162d9c5d3d7c56fa4cd4eb66971ba2178f80
 
 ]
 Ap\'{e}ndice A.
@@ -241,12 +262,23 @@ ormada para el metodo de Simpson[]
 
 ] (./memte.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  1660 strings out of 495062
  20082 string characters out of 1182644
  79277 words of memory out of 3000000
  4800 multiletter control sequences out of 15000+50000
+=======
+ 1675 strings out of 495062
+ 20350 string characters out of 1182644
+ 81277 words of memory out of 3000000
+ 4815 multiletter control sequences out of 15000+50000
+>>>>>>> 02e7162d9c5d3d7c56fa4cd4eb66971ba2178f80
  12622 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,7n,27p,542b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,7n,27p,543b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+<<<<<<< HEAD
 Output written on memte.dvi (22 pages, 34052 bytes).
+=======
+Output written on memte.dvi (22 pages, 36820 bytes).
+>>>>>>> 02e7162d9c5d3d7c56fa4cd4eb66971ba2178f80

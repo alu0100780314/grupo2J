@@ -55,8 +55,8 @@ compiladores se empleó el intérprete de Python (2.7.3) y el compilador de Tex (p
 \section{Resultados obtenidos}
 \label{3:sec:3}
 	Antes de detallar los resultados cabe destacar los valores de x utilizados para la elaboración
-del experimento. A continuación se exponen los valores aleatorios obtenidos en una de las 
-ejecuciones y sus correspondientes imágenes.
+del experimento. Los valores aleatorios obtenidos en una de las 
+ejecuciones y sus correspondientes imágenes se han incorporado en el Cuadro~\ref{tab:1}.
 
 %------------------------------------------------------------------------------
 \input{mem/tables/table.tex}
@@ -64,7 +64,7 @@ ejecuciones y sus correspondientes imágenes.
 	Como se observa, las imágenes obtenidas en x=1, x=3.5 y x=6 para las dos funciones son 
 aproximadamente iguales.
 	
-	La gráfica obtenida con estos datos es la siguiente.
+	La gráfica que se ha obtenido corresponde a la Figura~\ref{fig:1}.
 
 %------------------------------------------------------------------------------
 \begin{figure}[!th]
@@ -83,6 +83,19 @@ el error absoluto es 0.0130998039 y el error relativo es 0.0421505595.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Análisis de los resultados}
 \label{3:sec:4}
+	En primer lugar se debe apreciar que la ecuación de la parábola es una aproximación ya que las 
+imágenes de la función en los puntos x=1, x=3.5 y x=6 son números irracionales que fueron aproximados
+para una mejor utilización posteriormente. Por ello, las verdaderas imágenes de la parábola no son
+las obtenidas. También, si analizamos la representación gráfica se observa que las dos curvas son
+muy parecidas (se debe tener en cuenta que se han representado los valores en el intervalo [-0.1, 0.4] en el 
+eje Y). Este hecho se origina al ser la función tratada una curva de dibujo similar a una parábola, por 
+lo tanto, al aplicar el método de Simpson y trazar la parábola que se produce se ve que la diferencia de 
+la curvatura es mínima. Esto se traduce en una aproximación considerablemente exacta, es decir, con un 
+error prácticamente nulo.
 
-...
+	En relación a los datos obtenidos de la integral y su aproximación se puede comprobar que 
+lo expuesto en el párrafo anterior es cierto. Se ha obtenido un error absoluto muy cercano a 
+cero, igual que el error relativo. Esto se explica por la curvatura de la función estudiada. 
+
+
 
