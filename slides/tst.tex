@@ -39,6 +39,7 @@
 \begin{document}
   
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
 \begin{frame}
 
   \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
@@ -73,7 +74,8 @@
 \frametitle{Motivación}
 
 \begin{definicion}
-...
+	La principal motivación de realizar este trabajo es terminar de  manejar bien el LaTeX ,Beamer y Python, 
+y comprender bien al acabar el trabajo en que consistes todo el Método de Simpson.
 \end{definicion}
 
 \end{frame}
@@ -229,7 +231,7 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 	A continuación se procederá a describir el experimento realizado, los materiales empleados para su realización,
 los resultados obtenidos y a analizar dichos resultados.
 
-\end{frame}) 
+\end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \subsection{Descripción de los experimentos}
@@ -297,11 +299,41 @@ una memoria RAM de 3,00 GB y como sistema Bardinux 3.4 Beta3 de 32 bits.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
 \frametitle{Resultados obtenidos}
-
+Antes de detallar los resultados cabe destacar los valores de x utilizados para la elaboración
+del experimento. Los valores aleatorios obtenidos en una de las 
+ejecuciones y sus correspondientes imágenes se han incorporado en el siguiente cuadro:
+\end{frame}
 %------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Resultados obtenidos}
 \input{tables/tabla.tex}
+\end{frame}
 %------------------------------------------------------------------------------
-
+\begin{frame}
+\frametitle{Resultados obtenidos}
+Como se observa, las imágenes obtenidas en x=1, x=3.5 y x=6 para las dos funciones son 
+aproximadamente iguales.
+	
+	Se ha obtenido la siguiente gráfica:
+\end{frame}
+%------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Resultados obtenidos}
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{img/rep_funcion.eps}
+\caption{Ejemplo de figura}
+\label{fig:1}
+\end{center}
+\end{figure}
+\end{frame}
+%------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Resultados obtenidos}
+Por otra parte, en el primer módulo, se ha obtenido que el área real por debajo de la función
+vale 0.3107860 unidades cuadradas mientras que el valor aproximado por el método Simpson vale
+0.3238858 unidades cuadradas. Tras realizar el cálculo de los errores se ha calculado que
+el error absoluto es 0.0130998039 y el error relativo es 0.0421505595.
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
@@ -310,16 +342,20 @@ una memoria RAM de 3,00 GB y como sistema Bardinux 3.4 Beta3 de 32 bits.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
 \frametitle{Análisis de los resultados}
+	Lo primero que se aprecia es que dado que las imagenes de la función en los puntos x=1, x=3.5 y x=6 
+son números irracional que fueron aproximados para una porterior y mejor utilización la ecacuanción de la 
+parábola obtenida es una aproximación. Esto explica que las verdaderas imagenes de la parábola no sean 
+las obtenidas.
 
-%------------------------------------------------------------------------------
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{img/rep_funcion.eps}
-\caption{Ejemplo de figura}
-\label{fig:1}
-\end{center}
-\end{figure}
-%------------------------------------------------------------------------------
+	También se observa que en la representación gráfica las dos curvas son muy parecidas, casi iguales, 
+ello se debe a que al ser la función tratada una curva similar a una parábola.
+
+	Lo que significa que al aplicar el método de Simpson la diferencia que se produce entre las curvas es 
+mínima. Esto se traduce, en que se ha obtenido practicamente un error nulo.
+	  
+	En relación a los datos obtenidos de la integral y su aproximación se puede comprobar que 
+lo expuesto en el párrafo anterior es cierto. Se ha obtenido un error absoluto muy cercano a 
+cero, igual que el error relativo. Esto se explica por la curvatura de la función estudiada. 
 
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  

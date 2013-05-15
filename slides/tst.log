@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 17:22
-=======
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.15)  15 MAY 2013 17:20
->>>>>>> cd0ccb52266f489359d168612e32fbe58cffef61
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 19:31
 entering extended mode
  %&-line parsing enabled.
 **tst.tex
@@ -1067,7 +1063,7 @@ File: img/fmatesc.eps Graphic file (type eps)
  <img/fmatesc.eps>
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 56.
+(Font)              size <5> substituted on input line 57.
 
 [1
 
@@ -1087,48 +1083,18 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [8
 
 ]
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for U+msa on input line 116.
+LaTeX Font Info:    Try loading font information for U+msa on input line 119.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 116.
-=======
-LaTeX Font Info:    Try loading font information for U+msa on input line 117.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 117.
->>>>>>> cd0ccb52266f489359d168612e32fbe58cffef61
+LaTeX Font Info:    Try loading font information for U+msb on input line 119.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<<<<<<< HEAD
-
-! LaTeX Error: File `slides/img/ima1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 \end{frame}
-                 
-? x
- 
-Here is how much of TeX's memory you used:
- 15137 strings out of 495062
- 280728 string characters out of 1182644
- 358581 words of memory out of 3000000
- 17894 multiletter control sequences out of 15000+50000
- 10565 words of font info for 39 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 49i,17n,57p,419b,770s stack positions out of 5000i,500n,10000p,200000b,50000s
-Output written on tst.dvi (8 pages, 137704 bytes).
-=======
 File: img/ima1.eps Graphic file (type eps)
  <img/ima1.eps>
-Overfull \vbox (17.24069pt too high) detected at line 117
+Overfull \vbox (17.24069pt too high) detected at line 119
  []
 
 [9
@@ -1136,7 +1102,7 @@ Overfull \vbox (17.24069pt too high) detected at line 117
 ]
 File: img/ima2.eps Graphic file (type eps)
  <img/ima2.eps>
-Overfull \vbox (42.07562pt too high) detected at line 133
+Overfull \vbox (42.07562pt too high) detected at line 136
  []
 
 [10
@@ -1156,28 +1122,23 @@ File: img/ima3.eps Graphic file (type eps)
 ] [16
 
 ]
-Overfull \hbox (69.26208pt too wide) detected at line 220
+Overfull \hbox (69.26208pt too wide) detected at line 223
 [] \OT1/cmss/m/n/10.95 = [][] [] []\OT1/cmss/m/it/10.95 x
  []
 
 
-Overfull \vbox (7.35388pt too high) detected at line 220
+Overfull \vbox (7.35388pt too high) detected at line 223
  []
 
 [17
 
 ] [18
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [19
 
- [19
+] [20
 
-]
-Overfull \vbox (14.73749pt too high) has occurred while \output is active []
-
-
-[20] [21
+] [21
 
 ] [22
 
@@ -1199,61 +1160,68 @@ Overfull \vbox (14.73749pt too high) has occurred while \output is active []
 
 ] [31
 
-] (./tables/tabla.tex)
-Overfull \vbox (115.21797pt too high) detected at line 305
+]
+(./tables/tabla.tex)
+Overfull \vbox (115.21797pt too high) detected at line 311
  []
 
 [32
 
+] [33
+
 ]
 File: img/rep_funcion.eps Graphic file (type eps)
  <img/rep_funcion.eps>
-Overfull \vbox (5.01448pt too high) detected at line 324
- []
-
-[33
-
-]
-Overfull \vbox (4.58522pt too high) detected at line 356
+Overfull \vbox (5.01448pt too high) detected at line 330
  []
 
 [34
 
-]
-Overfull \vbox (4.58522pt too high) detected at line 356
- []
+] [35
 
-[35
+] [36
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 356
- []
-
-[36
-
-]
-Overfull \vbox (4.58522pt too high) detected at line 356
+Overfull \vbox (4.58522pt too high) detected at line 393
  []
 
 [37
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 356
+Overfull \vbox (4.58522pt too high) detected at line 393
  []
 
 [38
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 356
+Overfull \vbox (4.58522pt too high) detected at line 393
  []
 
 [39
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 356
+Overfull \vbox (4.58522pt too high) detected at line 393
  []
 
 [40
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 393
+ []
+
+[41
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 393
+ []
+
+[42
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 393
+ []
+
+[43
 
 ]
 File: beamericonarticle.eps Graphic file (type eps)
@@ -1264,7 +1232,7 @@ File: beamericonbook.eps Graphic file (type eps)
  <beamericonbook.eps>
 File: beamericonbook.eps Graphic file (type eps)
 
-<beamericonbook.eps> [41
+<beamericonbook.eps> [44
 
 ]
 \tf@nav=\write6
@@ -1283,13 +1251,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15289 strings out of 495062
- 284256 string characters out of 1182644
+ 15297 strings out of 495062
+ 284320 string characters out of 1182644
  361581 words of memory out of 3000000
- 18040 multiletter control sequences out of 15000+50000
+ 18048 multiletter control sequences out of 15000+50000
  14221 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,17n,57p,459b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on tst.dvi (41 pages, 648028 bytes).
->>>>>>> cd0ccb52266f489359d168612e32fbe58cffef61
+Output written on tst.dvi (44 pages, 677724 bytes).

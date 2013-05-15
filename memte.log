@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 17:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 19:44
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -204,16 +204,10 @@ Overfull \hbox (3.83943pt too wide) detected at line 119
 Cap\'{\i }tulo 3.
 (./mem/tex/cap3.tex [6
 
-]
-
-LaTeX Warning: Reference `tab:1' on page 7 undefined on input line 59.
-
-(./mem/tables/table.tex)
-
-LaTeX Warning: Reference `fig:1' on page 7 undefined on input line 67.
-
+] (./mem/tables/table.tex)
 File: mem/images/rep_funcion.eps Graphic file (type eps)
-<mem/images/rep_funcion.eps> [7]) [8] [9]
+ <mem/images/rep_funcion.eps>
+[7]) [8] [9]
 Cap\'{\i }tulo 4.
 (./mem/tex/cap4.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
@@ -260,42 +254,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
                 $
 l.6 \newblock TEC Pub.\ Co., Instituto Tecnoló
                                                gico de Costa Rica, 2006.
-? 
-! Extra }, or forgotten $.
-\maththreesuperior ->{^3}
-                         
-l.6 \newblock TEC Pub.\ Co., Instituto Tecnoló
-                                               gico de Costa Rica, 2006.
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.7 
-    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.7 
-    
-? 
-) [14
-
-] (./memte.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+? x
+ 
 Here is how much of TeX's memory you used:
- 1670 strings out of 495062
- 20311 string characters out of 1182644
+ 1665 strings out of 495062
+ 20249 string characters out of 1182644
  81277 words of memory out of 3000000
- 4808 multiletter control sequences out of 15000+50000
+ 4805 multiletter control sequences out of 15000+50000
  12270 words of font info for 45 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,7n,27p,543b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-Output written on memte.dvi (22 pages, 31940 bytes).
+Output written on memte.dvi (21 pages, 31376 bytes).
