@@ -1,0 +1,16 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Motivaci\'on y objetivos}{1}
+\contentsline {section}{\numberline {1.1}Objetivos espec\IeC {\'\i }ficos}{1}
+\contentsline {chapter}{\numberline {2}Fundamentos te\'oricos}{2}
+\contentsline {section}{\numberline {2.1}M\'etodo de Simpson}{3}
+\contentsline {section}{\numberline {2.2}Deducci\'on del modelo a partir de la Ecuaci\'on de la par\'abola}{3}
+\contentsline {chapter}{\numberline {3}Procedimiento experimental}{6}
+\contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{6}
+\contentsline {section}{\numberline {3.2}Descripci\'on del material}{7}
+\contentsline {section}{\numberline {3.3}Resultados obtenidos}{7}
+\contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{7}
+\contentsline {chapter}{\numberline {4}Conclusiones}{10}
+\contentsline {chapter}{\numberline {A}Programa en Python}{11}
+\contentsline {section}{\numberline {A.1}Algoritmo para el calculo de area}{11}
+\contentsline {section}{\numberline {A.2}Algoritmo para la representacion grafica}{12}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{13}

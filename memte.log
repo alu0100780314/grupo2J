@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  14 MAY 2013 18:58
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 16:19
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -254,14 +254,39 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
                 $
 l.6 \newblock TEC Pub.\ Co., Instituto Tecnoló
                                                gico de Costa Rica, 2006.
-? x
- 
+? 
+! Extra }, or forgotten $.
+\maththreesuperior ->{^3}
+                         
+l.6 \newblock TEC Pub.\ Co., Instituto Tecnoló
+                                               gico de Costa Rica, 2006.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 
+    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 
+    
+? 
+) [14
+
+] (./memte.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1665 strings out of 495062
- 20249 string characters out of 1182644
+ 1670 strings out of 495062
+ 20311 string characters out of 1182644
  81277 words of memory out of 3000000
- 4805 multiletter control sequences out of 15000+50000
+ 4808 multiletter control sequences out of 15000+50000
  12270 words of font info for 45 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,7n,27p,543b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
-Output written on memte.dvi (21 pages, 31376 bytes).
+
+Output written on memte.dvi (22 pages, 31928 bytes).
