@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 19:31
-=======
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.15)  15 MAY 2013 18:50
->>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 20:12
 entering extended mode
  %&-line parsing enabled.
 **tst.tex
@@ -1087,18 +1083,18 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [8
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 119.
+LaTeX Font Info:    Try loading font information for U+msa on input line 113.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 119.
+LaTeX Font Info:    Try loading font information for U+msb on input line 113.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 File: img/ima1.eps Graphic file (type eps)
  <img/ima1.eps>
-Overfull \vbox (17.24069pt too high) detected at line 119
+Overfull \vbox (17.24069pt too high) detected at line 113
  []
 
 [9
@@ -1106,7 +1102,7 @@ Overfull \vbox (17.24069pt too high) detected at line 119
 ]
 File: img/ima2.eps Graphic file (type eps)
  <img/ima2.eps>
-Overfull \vbox (42.07562pt too high) detected at line 136
+Overfull \vbox (42.07562pt too high) detected at line 130
  []
 
 [10
@@ -1126,12 +1122,12 @@ File: img/ima3.eps Graphic file (type eps)
 ] [16
 
 ]
-Overfull \hbox (69.26208pt too wide) detected at line 223
+Overfull \hbox (69.26208pt too wide) detected at line 217
 [] \OT1/cmss/m/n/10.95 = [][] [] []\OT1/cmss/m/it/10.95 x
  []
 
 
-Overfull \vbox (7.35388pt too high) detected at line 223
+Overfull \vbox (7.35388pt too high) detected at line 217
  []
 
 [17
@@ -1162,91 +1158,72 @@ Overfull \vbox (7.35388pt too high) detected at line 223
 
 ] [30
 
-<<<<<<< HEAD
 ] [31
 
 ]
 (./tables/tabla.tex)
-Overfull \vbox (115.21797pt too high) detected at line 311
-=======
-]
-(./tables/tabla.tex)
 Overfull \vbox (115.21797pt too high) detected at line 305
->>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
  []
 
-[31
+[32
 
 ] [33
 
 ]
 File: img/rep_funcion.eps Graphic file (type eps)
  <img/rep_funcion.eps>
-Overfull \vbox (5.01448pt too high) detected at line 330
+Overfull \vbox (5.01448pt too high) detected at line 324
  []
 
-<<<<<<< HEAD
 [34
 
 ] [35
 
 ] [36
-=======
-[32
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 356
- []
-
-[33
->>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
-
-]
-Overfull \vbox (4.58522pt too high) detected at line 393
+Overfull \vbox (4.58522pt too high) detected at line 387
  []
 
 [37
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 393
+Overfull \vbox (4.58522pt too high) detected at line 387
  []
 
 [38
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 393
+Overfull \vbox (4.58522pt too high) detected at line 387
  []
 
 [39
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 393
+Overfull \vbox (4.58522pt too high) detected at line 387
  []
 
 [40
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 393
+Overfull \vbox (4.58522pt too high) detected at line 387
  []
 
 [41
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 393
+Overfull \vbox (4.58522pt too high) detected at line 387
  []
 
 [42
 
 ]
-<<<<<<< HEAD
-Overfull \vbox (4.58522pt too high) detected at line 393
+Overfull \vbox (4.58522pt too high) detected at line 387
  []
 
 [43
 
 ]
-=======
->>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
 File: beamericonarticle.eps Graphic file (type eps)
  <beamericonarticle.eps>
 File: beamericonbook.eps Graphic file (type eps)
@@ -1255,11 +1232,7 @@ File: beamericonbook.eps Graphic file (type eps)
  <beamericonbook.eps>
 File: beamericonbook.eps Graphic file (type eps)
 
-<<<<<<< HEAD
 <beamericonbook.eps> [44
-=======
-<beamericonbook.eps> [40
->>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
 
 ]
 \tf@nav=\write6
@@ -1284,10 +1257,6 @@ Here is how much of TeX's memory you used:
  18048 multiletter control sequences out of 15000+50000
  14221 words of font info for 53 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 49i,17n,57p,459b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,17n,57p,459b,907s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-<<<<<<< HEAD
-Output written on tst.dvi (44 pages, 677724 bytes).
-=======
-Output written on tst.dvi (40 pages, 639348 bytes).
->>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
+Output written on tst.dvi (44 pages, 668172 bytes).
