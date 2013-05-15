@@ -5,7 +5,7 @@
 \beamer@subsectionintoc {2}{1}{Deducci\IeC {\'o}n del modelo a partir de la ecuaci\IeC {\'o}n de la par\IeC {\'a}bola}{10}{0}{2}
 \beamer@sectionintoc {3}{Procedimiento experimental}{18}{0}{3}
 \beamer@subsectionintoc {3}{1}{Descripci\IeC {\'o}n de los experimentos}{19}{0}{3}
-\beamer@subsectionintoc {3}{2}{Descripci\IeC {\'o}n del material}{27}{0}{3}
-\beamer@subsectionintoc {3}{3}{Resultados obtenidos}{32}{0}{3}
-\beamer@subsectionintoc {3}{4}{An\IeC {\'a}lisis de los resultados}{33}{0}{3}
-\beamer@sectionintoc {4}{Conclusiones}{34}{0}{4}
+\beamer@subsectionintoc {3}{2}{Descripci\IeC {\'o}n del material}{26}{0}{3}
+\beamer@subsectionintoc {3}{3}{Resultados obtenidos}{31}{0}{3}
+\beamer@subsectionintoc {3}{4}{An\IeC {\'a}lisis de los resultados}{32}{0}{3}
+\beamer@sectionintoc {4}{Conclusiones}{33}{0}{4}

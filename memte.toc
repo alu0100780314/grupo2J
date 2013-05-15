@@ -11,6 +11,6 @@
 \contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{7}
 \contentsline {chapter}{\numberline {4}Conclusiones}{10}
 \contentsline {chapter}{\numberline {A}Programa en Python}{11}
-\contentsline {section}{\numberline {A.1}Algoritmo para el calculo de area}{11}
-\contentsline {section}{\numberline {A.2}Algoritmo para la representacion grafica}{12}
+\contentsline {section}{\numberline {A.1}Algoritmo para el c\'alculo de \'area}{11}
+\contentsline {section}{\numberline {A.2}Algoritmo para la representaci\'on gr\'afica}{12}
 \contentsline {chapter}{Bibliograf\IeC {\'\i }a}{13}

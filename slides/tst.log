@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.15)  15 MAY 2013 17:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.15)  15 MAY 2013 18:50
 entering extended mode
  %&-line parsing enabled.
 **tst.tex
@@ -1134,16 +1134,11 @@ Overfull \vbox (7.35388pt too high) detected at line 220
 
 ] [18
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [19
 
- [19
+] [20
 
-]
-Overfull \vbox (14.73749pt too high) has occurred while \output is active []
-
-
-[20] [21
+] [21
 
 ] [22
 
@@ -1163,18 +1158,23 @@ Overfull \vbox (14.73749pt too high) has occurred while \output is active []
 
 ] [30
 
-] [31
-
-] (./tables/tabla.tex)
+]
+(./tables/tabla.tex)
 Overfull \vbox (115.21797pt too high) detected at line 305
  []
 
-[32
+[31
 
 ]
 File: img/rep_funcion.eps Graphic file (type eps)
  <img/rep_funcion.eps>
 Overfull \vbox (5.01448pt too high) detected at line 324
+ []
+
+[32
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
  []
 
 [33
@@ -1216,12 +1216,6 @@ Overfull \vbox (4.58522pt too high) detected at line 356
 [39
 
 ]
-Overfull \vbox (4.58522pt too high) detected at line 356
- []
-
-[40
-
-]
 File: beamericonarticle.eps Graphic file (type eps)
  <beamericonarticle.eps>
 File: beamericonbook.eps Graphic file (type eps)
@@ -1230,7 +1224,7 @@ File: beamericonbook.eps Graphic file (type eps)
  <beamericonbook.eps>
 File: beamericonbook.eps Graphic file (type eps)
 
-<beamericonbook.eps> [41
+<beamericonbook.eps> [40
 
 ]
 \tf@nav=\write6
@@ -1257,4 +1251,4 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  49i,17n,57p,459b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on tst.dvi (41 pages, 648028 bytes).
+Output written on tst.dvi (40 pages, 639348 bytes).
