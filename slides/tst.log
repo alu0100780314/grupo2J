@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 17:22
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.15)  15 MAY 2013 17:20
+>>>>>>> cd0ccb52266f489359d168612e32fbe58cffef61
 entering extended mode
  %&-line parsing enabled.
 **tst.tex
@@ -1083,15 +1087,24 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [8
 
 ]
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for U+msa on input line 116.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 116.
+=======
+LaTeX Font Info:    Try loading font information for U+msa on input line 117.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 117.
+>>>>>>> cd0ccb52266f489359d168612e32fbe58cffef61
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
+<<<<<<< HEAD
 
 ! LaTeX Error: File `slides/img/ima1' not found.
 
@@ -1112,3 +1125,171 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  49i,17n,57p,419b,770s stack positions out of 5000i,500n,10000p,200000b,50000s
 Output written on tst.dvi (8 pages, 137704 bytes).
+=======
+File: img/ima1.eps Graphic file (type eps)
+ <img/ima1.eps>
+Overfull \vbox (17.24069pt too high) detected at line 117
+ []
+
+[9
+
+]
+File: img/ima2.eps Graphic file (type eps)
+ <img/ima2.eps>
+Overfull \vbox (42.07562pt too high) detected at line 133
+ []
+
+[10
+
+]
+File: img/ima3.eps Graphic file (type eps)
+ <img/ima3.eps> [11
+
+] [12
+
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+]
+Overfull \hbox (69.26208pt too wide) detected at line 220
+[] \OT1/cmss/m/n/10.95 = [][] [] []\OT1/cmss/m/it/10.95 x
+ []
+
+
+Overfull \vbox (7.35388pt too high) detected at line 220
+ []
+
+[17
+
+] [18
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+
+]
+Overfull \vbox (14.73749pt too high) has occurred while \output is active []
+
+
+[20] [21
+
+] [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+] [27
+
+] [28
+
+] [29
+
+] [30
+
+] [31
+
+] (./tables/tabla.tex)
+Overfull \vbox (115.21797pt too high) detected at line 305
+ []
+
+[32
+
+]
+File: img/rep_funcion.eps Graphic file (type eps)
+ <img/rep_funcion.eps>
+Overfull \vbox (5.01448pt too high) detected at line 324
+ []
+
+[33
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
+ []
+
+[34
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
+ []
+
+[35
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
+ []
+
+[36
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
+ []
+
+[37
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
+ []
+
+[38
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
+ []
+
+[39
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
+ []
+
+[40
+
+]
+File: beamericonarticle.eps Graphic file (type eps)
+ <beamericonarticle.eps>
+File: beamericonbook.eps Graphic file (type eps)
+ <beamericonbook.eps>
+File: beamericonbook.eps Graphic file (type eps)
+ <beamericonbook.eps>
+File: beamericonbook.eps Graphic file (type eps)
+
+<beamericonbook.eps> [41
+
+]
+\tf@nav=\write6
+\openout6 = `tst.nav'.
+
+\tf@toc=\write7
+\openout7 = `tst.toc'.
+
+\tf@snm=\write8
+\openout8 = `tst.snm'.
+
+ (./tst.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15289 strings out of 495062
+ 284256 string characters out of 1182644
+ 361581 words of memory out of 3000000
+ 18040 multiletter control sequences out of 15000+50000
+ 14221 words of font info for 53 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 49i,17n,57p,459b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on tst.dvi (41 pages, 648028 bytes).
+>>>>>>> cd0ccb52266f489359d168612e32fbe58cffef61
