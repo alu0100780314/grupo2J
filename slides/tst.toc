@@ -7,5 +7,10 @@
 \beamer@subsectionintoc {3}{1}{Descripci\IeC {\'o}n de los experimentos}{19}{0}{3}
 \beamer@subsectionintoc {3}{2}{Descripci\IeC {\'o}n del material}{26}{0}{3}
 \beamer@subsectionintoc {3}{3}{Resultados obtenidos}{31}{0}{3}
+<<<<<<< HEAD
 \beamer@subsectionintoc {3}{4}{An\IeC {\'a}lisis de los resultados}{36}{0}{3}
 \beamer@sectionintoc {4}{Conclusiones}{37}{0}{4}
+=======
+\beamer@subsectionintoc {3}{4}{An\IeC {\'a}lisis de los resultados}{32}{0}{3}
+\beamer@sectionintoc {4}{Conclusiones}{33}{0}{4}
+>>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a

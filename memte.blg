@@ -1,50 +1,45 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: memte.aux
 The style file: plain.bst
-Database file #1: mem/tex/biblio.bib
-Repeated entry---line 9 of file mem/tex/biblio.bib
- : @book{Lamport:LDP94
- :                    ,
-I'm skipping whatever remains of this entry
-You've used 2 entries,
+Database file #1: mem/tex/biblio.bib.bib
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            508 strings with 4224 characters,
-and the built_in function-call counts, 429 in all, are:
-= -- 35
-> -- 14
+            515 strings with 4363 characters,
+and the built_in function-call counts, 648 in all, are:
+= -- 55
+> -- 21
 < -- 0
-+ -- 6
-- -- 4
-* -- 16
-:= -- 78
-add.period$ -- 5
-call.type$ -- 2
-change.case$ -- 6
++ -- 9
+- -- 6
+* -- 25
+:= -- 117
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 19
-empty$ -- 45
-format.name$ -- 4
-if$ -- 89
+cite$ -- 3
+duplicate$ -- 31
+empty$ -- 67
+format.name$ -- 6
+if$ -- 136
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 12
-num.names$ -- 4
-pop$ -- 19
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 17
+num.names$ -- 6
+pop$ -- 26
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 9
 quote$ -- 0
-skip$ -- 13
+skip$ -- 19
 stack$ -- 0
-substring$ -- 10
-swap$ -- 2
+substring$ -- 15
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 8
 warning$ -- 0
-while$ -- 4
-width$ -- 3
-write$ -- 20
-(There was 1 error message)
+while$ -- 6
+width$ -- 4
+write$ -- 31

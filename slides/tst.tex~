@@ -145,7 +145,7 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 		{3}\left[2\textup{a}\textup{h}^2  +  6\textup{c}\right]\]
 		
 \begin{center}
-\includegraphics[scale=•]{•}=0.2\textwidth]{img/ima3.eps}
+\includegraphics[width=0.5\textwidth]{img/ima3.eps}
 \end{center}
 	
 \end{frame}

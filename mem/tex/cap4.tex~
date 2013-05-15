@@ -1,0 +1,19 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter 4: Conclusiones y Trabajos Futuros 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item El método de Simpson es muy útil para funciones con una curva similar a una parábola en un intervalo cerrado.
+
+	\item El método de Simpson produce una mala aproximacion si la funcion en el intervalo cerrado presenta una recta o más de una curva.
+	
+	\item El método de Simpson facilita en gran medida la integracion de funciones muy difíciles de resolver por otros métodos.
+
+	\item El método de Simpson es fácil de aplicar ya que solo hace falta utilizar una formula y hallar las imágenes de la funcion en tres puntos diferentes.
+	
+	\item El método de Simpson puede ser utilizado para comprobar el resultado de una integracion y sabemos que el error es mínimo.
+	
+	\item El método de Simpson es algo complicado de demostrar si no se tienen cierto conocimientos matemáticos, por eso suele ser un método más sistemático.
+
+\end{itemize}

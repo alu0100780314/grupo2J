@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.4.13)  15 MAY 2013 19:31
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.15)  15 MAY 2013 18:50
+>>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
 entering extended mode
  %&-line parsing enabled.
 **tst.tex
@@ -1158,14 +1162,20 @@ Overfull \vbox (7.35388pt too high) detected at line 223
 
 ] [30
 
+<<<<<<< HEAD
 ] [31
 
 ]
 (./tables/tabla.tex)
 Overfull \vbox (115.21797pt too high) detected at line 311
+=======
+]
+(./tables/tabla.tex)
+Overfull \vbox (115.21797pt too high) detected at line 305
+>>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
  []
 
-[32
+[31
 
 ] [33
 
@@ -1175,11 +1185,21 @@ File: img/rep_funcion.eps Graphic file (type eps)
 Overfull \vbox (5.01448pt too high) detected at line 330
  []
 
+<<<<<<< HEAD
 [34
 
 ] [35
 
 ] [36
+=======
+[32
+
+]
+Overfull \vbox (4.58522pt too high) detected at line 356
+ []
+
+[33
+>>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
 
 ]
 Overfull \vbox (4.58522pt too high) detected at line 393
@@ -1218,12 +1238,15 @@ Overfull \vbox (4.58522pt too high) detected at line 393
 [42
 
 ]
+<<<<<<< HEAD
 Overfull \vbox (4.58522pt too high) detected at line 393
  []
 
 [43
 
 ]
+=======
+>>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
 File: beamericonarticle.eps Graphic file (type eps)
  <beamericonarticle.eps>
 File: beamericonbook.eps Graphic file (type eps)
@@ -1232,7 +1255,11 @@ File: beamericonbook.eps Graphic file (type eps)
  <beamericonbook.eps>
 File: beamericonbook.eps Graphic file (type eps)
 
+<<<<<<< HEAD
 <beamericonbook.eps> [44
+=======
+<beamericonbook.eps> [40
+>>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a
 
 ]
 \tf@nav=\write6
@@ -1259,4 +1286,8 @@ Here is how much of TeX's memory you used:
  28 hyphenation exceptions out of 8191
  49i,17n,57p,459b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+<<<<<<< HEAD
 Output written on tst.dvi (44 pages, 677724 bytes).
+=======
+Output written on tst.dvi (40 pages, 639348 bytes).
+>>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a

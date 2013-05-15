@@ -40,6 +40,7 @@
 \headcommand {\beamer@subsectionentry {0}{3}{3}{31}{Resultados obtenidos}}\headcommand {\beamer@subsectionpages {26}{30}}
 \headcommand {\slideentry {3}{3}{1}{31/31}{Resultados obtenidos}{0}}
 \headcommand {\beamer@framepages {31}{31}}
+<<<<<<< HEAD
 \headcommand {\slideentry {3}{3}{2}{32/32}{Resultados obtenidos}{0}}
 \headcommand {\beamer@framepages {32}{32}}
 \headcommand {\slideentry {3}{3}{3}{33/33}{Resultados obtenidos}{0}}
@@ -63,3 +64,20 @@
 \headcommand {\beamer@sectionpages {37}{44}}
 \headcommand {\beamer@documentpages {44}}
 \headcommand {\def \inserttotalframenumber {21}}
+=======
+\headcommand {\beamer@subsectionentry {0}{3}{4}{32}{An\IeC {\'a}lisis de los resultados}}\headcommand {\beamer@subsectionpages {31}{31}}
+\headcommand {\slideentry {3}{4}{1}{32/32}{An\IeC {\'a}lisis de los resultados}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\sectionentry {4}{Conclusiones}{33}{Conclusiones}{0}}
+\headcommand {\beamer@sectionpages {18}{32}}
+\headcommand {\beamer@subsectionpages {32}{32}}
+\headcommand {\slideentry {4}{0}{2}{33/39}{}{0}}
+\headcommand {\beamer@framepages {33}{39}}
+\headcommand {\slideentry {4}{0}{3}{40/40}{}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\beamer@partpages {1}{40}}
+\headcommand {\beamer@subsectionpages {33}{40}}
+\headcommand {\beamer@sectionpages {33}{40}}
+\headcommand {\beamer@documentpages {40}}
+\headcommand {\def \inserttotalframenumber {17}}
+>>>>>>> 79345507fa3cf826e9763b9fbf34ae6c3f8b2a7a

@@ -1,17 +1,15 @@
 @Book{Lamport:LDP94,
-    author =    "Marvin Hernández" ,
-     title =     "Metodo Numerico: Regla de Simpson" ,
+    author =    "Marvin Hern\'andez" ,
+     title =     "M\'etodo Num\'erico: Regla de Simpson" ,
      publisher = "T-E-C Pub.\ Co." ,
-     year =      "2006" ,
-     address =   "Instituto Tecnologico de Costa Rica" 
+     year =      "2006"
 }
 
 @Book{Lamport:LDP95,
     author =    "Frank Ayres, Jr." ,
-     title =     "Calculo diferencia e integral" ,
+     title =     "C\'alculo diferencial e integral" ,
      publisher = "SCHAUM Pub.\ Co." ,
-     year =      "1993" ,
-     address =   "Instituto Tecnologico de Mexico" 
+     year =      "1993"
 }
 
 @MISC{URL:XML,
