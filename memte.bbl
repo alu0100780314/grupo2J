@@ -1,9 +1,14 @@
 \begin{thebibliography}{1}
 
+\bibitem{Lamport:LDP95}
+Jr. Frank~Ayres.
+\newblock {\em C\'alculo diferencial e integral}.
+\newblock SCHAUM Pub.\ Co., Instituto Tecn\'ologico de M\'exico, 1993.
+
 \bibitem{Lamport:LDP94}
-Marvin Hernández.
-\newblock {\em Método Numérico: Regla de Simpson}.
-\newblock TEC Pub.\ Co., Instituto Tecnológico de Costa Rica, 2006.
+Marvin Hern\'andez.
+\newblock {\em M\'etodo Num\'erico: Regla de Simpson}.
+\newblock T-E-C Pub.\ Co., Instituto Tecn\'ologico de Costa Rica, 2006.
 
 \bibitem{URL:XML}
 Ing Yamil Armando~Cerquera Rojas.
