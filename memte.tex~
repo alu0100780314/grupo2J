@@ -205,26 +205,14 @@
 \end{appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\addcontentsline{toc}{chapter}{Bibliografía}
-%\bibliographystyle{plain}
-%
-%\bibliography{mem/tex/biblio.bib}
-%\nocite{*}
-%
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliographystyle{plain}
+
+\bibliography{mem/tex/biblio.bib}
+
+\nocite{*}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{thebibliography}{11}
-\bibitem Método numérico: Regla de Simpson\\
-Marvin Hernández\\
-2006\\
-Instituto Tecnológico de Costa Rica
 
-\bibitem Cálculo diferencial e integral\\
-Frank Ayres, Jr.\\
-1993\\
-Instituto Tecnológico de México
-
-\bibitem Ing Yamil Armando Cerquera Rojas\\
-{\small $http://www.es.scrib.com/doc/5784437/Metodo-Simpson$}
-\end{thebibliography}
 
 \end{document}

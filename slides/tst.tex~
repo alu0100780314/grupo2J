@@ -39,6 +39,7 @@
 \begin{document}
   
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
 \begin{frame}
 
   \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
@@ -73,7 +74,9 @@
 \frametitle{Motivación}
 
 \begin{definicion}
-...
+	Ser capaz de crear documentos en LaTeX y, a su vez, presentaciones con Beamer.
+También, poder crear un experimento escrito en lenguaje Python. Secundariamente, saber manejar
+el controlador de versiones Git.
 \end{definicion}
 
 \end{frame}
@@ -81,10 +84,8 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
-
 \frametitle{Objetivos }
 
-\begin{block}{Ejemplo}
   \begin{itemize}
   \item
    Implementar un programa en Python que sea capaz de resolver el problema del cálculo del área bajo una función conocida en un 
@@ -93,10 +94,7 @@
   \item
    Entender los conceptos básicos de la integración aproximada empleando el método de Simpson, para posteriormente, saber emplearlos
    en Python.
-
   \end{itemize}
-\end{block}
-
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
@@ -113,46 +111,55 @@ utilizan polinomios de orden superior para conectar los puntos, concretamente de
 \includegraphics[width=0.5\textwidth]{img/ima1.eps}
 \end{center}	
 	
-
 \end{frame}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{frame}
 \frametitle{Fundamentos Teóricos}
 \subsection{Deducción del modelo a partir de la ecuación de la parábola}
-Para demostrar el método de Simpson hay que asumir que cada sub área es un pequeño arco de parábola de la forma $ ax^2 + bx + c $ cuyos límites son los siguientes: límite inferior en -h , límite superior en h y por ende la mitad de la sub área se encontrará en el punto 0, tal y como se ve en la figura 2.
+Para demostrar el método de Simpson hay que asumir que cada sub área es un pequeño arco de parábola de la forma $ ax^2 + bx + c $ cuyos límites son los siguientes: límite inferior en -h , límite superior en h y por ello la mitad de la sub área se encontrará en el punto 0, tal y como se ve en esta figura.
 	
 \begin{center}
 \includegraphics[width=0.5\textwidth]{img/ima2.eps}
 \end{center}	
 	
+
+\end{frame}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Fundamentos Teóricos}
 		Se procede a la integración de dicho arco de parábola entre los límites descritos:
 		
 		\[ \int_{-h}^{h}\left(\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x=\left[\frac{\textup{a}x^{3}}
 		{3}+\frac{\textup{b}x^{2}}{2}+\textup{c}x\right]_{-h}^{h} \] 
-		
-\end{frame}
-
-\begin{frame}
-\frametitle{Fundamentos Teóricos}	
+	
 		Si se reemplazan cada uno de los límites y se quitan los corchetes se obtiene lo siguiente:
 		
 		\[\frac{\textup{a}\textup{h}^3}{3} + \frac{\textup{b}\textup{h}^2}{2} + \textup{c}\textup{h} + \frac{\textup{a}\textup{h}^3}{3} 
 		-  \frac{\textup{b}\textup{h}^2}{2} + \textup{c}\textup{h}=2\frac{\textup{a}\textup{h}^3}{2\textup{c}\textup{h}}\]
+
+\end{frame}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Fundamentos Teóricos}
+
+    		
+	Y si se simplifica obtenemos la ecuación 1 que se muestra a continuación:
 		
-		Y si se simplifica obtenemos la ecuación 1 que se muestra a continuación:
-		
-		Ecuación 1: \[\int_{-h}^{h}\left((\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x=\frac{\textup{h}}
-		{3}\left[2\textup{a}\textup{h}^2  +  6\textup{c}\right]\]
-		
+	Ecuación 1: \[\int_{-h}^{h}\left((\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x=\frac{\textup{h}}{3}\left[2\textup{a}\textup{h}^2  +  6\textup{c}\right]\]
+
+\bigskip
+
 \begin{center}
 \includegraphics[width=0.5\textwidth]{img/ima3.eps}
 \end{center}
-	
-\end{frame}
 
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \begin{frame}
 \frametitle{Fundamentos Teóricos}
-	En la figura 3 se observa, respecto a las notaciones, las siguientes igualdades:
+
+	En la figura anterior se observa, respecto a las notaciones, las siguientes igualdades.
 	
 	\begin{itemize}
     \item $ \textup{f}x_{i}=y_{i}=\textup{f}\textup{(-h)} $
@@ -163,11 +170,11 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
     \pause
     \end{itemize}
 
+    
 
-    Entonces se podría obtener, evaluando la ecuación general $ \textup{a}x^2 + \textup{b}x + \textup{c} $ en cada uno de los puntos de la sub área [-h,0,h], el siguiente sistema de ecuaciones:
+	Entonces se podría obtener, evaluando la ecuación general $ \textup{a}x^2 + \textup{b}x + \textup{c} $ en cada uno de los puntos de la sub área [-h,0,h], el siguiente sistema de ecuaciones:
 	
-	$ \textup{f}\textup{(-h)}=\textup{a}\textup{h}^2 - \textup{b}\textup{h} + \textup{c} $, se puede tomar esta altura como 
-	$ y_{0}=\textup{f}x_{i}$.
+	$ \textup{f}\textup{(-h)}=\textup{a}\textup{h}^2 - \textup{b}\textup{h} + \textup{c} $, se puede tomar esta altura como $ y_{0}=\textup{f}x_{i}$.
 	
 	
 	$ \textup{f}(0)=\textup{c} $, se toma esta altura como $ y_{1}=\textup{f}x_{i+1} $.
@@ -176,10 +183,6 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 	$ \textup{f}\textup{(h)}=\textup{a}\textup{h}^2 + \textup{b}\textup{h} + \textup{c} $, y esta altura como $ 
 	y_{2}=\textup{f}x_{i+2}$.
 
-\end{frame}
-
-\begin{frame}
-\frametitle{Fundamentos Teóricos}
 	De lo anterior se puede deducir las siguientes dos ecuaciones:
 
 	
@@ -187,6 +190,11 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 
 	
 	Ecuación 3: $ y_{i}=\textup{c} $.
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Fundamentos Teóricos}
 
 	
 	Si se vuelve a la Ecuación 1 se ve que se puede expresar igualmente de la siguiente forma:
@@ -201,11 +209,14 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 	Ecuación 5: $ \int_{-h}^{h}\left(\textup{a}x^2 + \textup{b}x + \textup{c}\right)\textup{d}x = \frac{\textup{h}}{3}\left[y_{0} + 
 	4y_{1} + y_{2}\right] = \textup{A}_{1}  $.
 
+	Ahora se interpreta la Ecuación 5 con base en la sub área seleccionada $\textup{A}_{1}$ para el desarrollo del método de Simpson, se diría que el área del segmento es igual a la suma de la altura o función evaluada en el lado izquierdo más cuatro veces la función evaluada en la parte central de la sub área más la función evaluada en el lado derecho de la sub área, y todo ello multiplicado por el ancho del sub área y dividido por 3.
+
 \end{frame}
 
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \begin{frame}
 \frametitle{Fundamentos Teóricos}
-	Ahora se interpreta la Ecuación 5 con base en la sub área seleccionada $\textup{A}_{1}$ para el desarrollo del método de Simpson, se diría que el área del segmento es igual a la suma de la altura o función evaluada en el lado izquierdo más cuatro veces la función evaluada en la parte central de la sub área más la función evaluada en el lado derecho de la sub área, y todo ello multiplicado por el ancho del sub área y dividido por 3.
+
 	
 	Si se toma a y b como $ x_{0} $ y $ x_{2} $, y $ \textup{f}_{i}\left(x_{i}\right) $ se representa mediante un polinomio de Lagrange de segundo orden, luego la integral que quedaría sería la siguiente:
 	
@@ -218,8 +229,7 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 	\[\textup{I} = \left(\textup{b}-\textup{a}\right)\frac{\textup{f}\left(x_{0}\right) + 4\textup{f}\left(x_{1}\right) + \textup{f}\left(x_{2}\right)}{6}\]
 
 \end{frame}
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \section{Procedimiento experimental}
 
@@ -229,7 +239,7 @@ Para demostrar el método de Simpson hay que asumir que cada sub área es un peq
 	A continuación se procederá a describir el experimento realizado, los materiales empleados para su realización,
 los resultados obtenidos y a analizar dichos resultados.
 
-\end{frame}) 
+\end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \subsection{Descripción de los experimentos}
@@ -246,11 +256,11 @@ para su aproximación.
  \begin{enumerate}
     \item La función con la que se ha trabajado es: $f(x) = \frac{1}{1+e^{x}}$.
     \pause
-    \item Y el intervalo en la se definine es: $x \in [1, 6]$.
+    \item Y el intervalo en la se define es: $x \in [1, 6]$.
     \pause
-    \item Considerimos f'(x) como $\ln{e^{x}} - \ln({e^{x}+1)}$
+    \item Consideramos $\ln{e^{x}} - \ln({e^{x}+1)}$ como la integral de f(x).
     \pause
-    \item La parabola ha representar viene dado por los puntos:
+    \item La parábola ha representar viene dado por los puntos:
     \begin{enumerate}
       \item f(a)
       \pause
@@ -259,10 +269,10 @@ para su aproximación.
       \item f($\frac{a+b}{2}$)
     \end{enumerate}
     \pause
-    \item Por tanto, la ecuación obtenida es: $y = 0.0169x^2 - 0.17x + 0.422 $
-      
+    \item Por tanto, la ecuación obtenida es: $y = 0.0169x^2 - 0.17x + 0.422 $    
  \end{enumerate}
 \end{frame}
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
 \subsection{Descripción del material}
@@ -274,13 +284,13 @@ para su aproximación.
   \begin{enumerate}
     \item
     Computador con procesador Intel(R) Core(TM)2 Quad CPU Q6600 @ 2.40GHz 2.39 GHz, 
-una memoria RAM de 3,00 GB y como sistema Bardinux 3.4 Beta3 de 32 bits.
+una memoria RAM de 3,00 GB y con el sistema operativo Bardinux 3.4 Beta3 de 32 bits.
       \pause
     \item
-    Texmaker y Kate (versiones 3.2 y 3.8.5, respectivamente) para escribir los codigos fuentes de LaTeX.
+    Texmaker y Kate (versiones 3.2 y 3.8.5, respectivamente) para escribir los códigos fuentes de LaTeX.
       \pause
     \item
-    Para escribir el codigo de los programas hechos en Python se empleo el Kate.
+    Para escribir el código de los programas hechos en Python se empleo el Kate.
       \pause
     \item 
     Para registrar los cambios realizados en el trabajo y subirlos a GitHub se hizo uso de Git (1.7.9.5).
@@ -297,11 +307,41 @@ una memoria RAM de 3,00 GB y como sistema Bardinux 3.4 Beta3 de 32 bits.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
 \frametitle{Resultados obtenidos}
-
+Antes de detallar los resultados cabe destacar los valores de x utilizados para la elaboración
+del experimento. Los valores aleatorios obtenidos en una de las 
+ejecuciones y sus correspondientes imágenes se han incorporado en el siguiente cuadro:
+\end{frame}
 %------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Resultados obtenidos}
 \input{tables/tabla.tex}
+\end{frame}
 %------------------------------------------------------------------------------
-
+\begin{frame}
+\frametitle{Resultados obtenidos}
+Como se observa, las imágenes obtenidas en x=1, x=3.5 y x=6 para las dos funciones son 
+aproximadamente iguales.
+	
+	Se ha obtenido la siguiente gráfica:
+\end{frame}
+%------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Resultados obtenidos}
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{img/rep_funcion.eps}
+\caption{Ejemplo de figura}
+\label{fig:1}
+\end{center}
+\end{figure}
+\end{frame}
+%------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Resultados obtenidos}
+Por otra parte, en el primer módulo, se ha obtenido que el área real por debajo de la función
+vale 0.3107860 unidades cuadradas mientras que el valor aproximado por el método Simpson vale
+0.3238858 unidades cuadradas. Tras realizar el cálculo de los errores se ha calculado que
+el error absoluto es 0.0130998039 y el error relativo es 0.0421505595.
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
@@ -310,16 +350,20 @@ una memoria RAM de 3,00 GB y como sistema Bardinux 3.4 Beta3 de 32 bits.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
 \frametitle{Análisis de los resultados}
+	Lo primero que se aprecia es que dado que las imagenes de la función en los puntos x=1, x=3.5 y x=6 
+son números irracional que fueron aproximados para una porterior y mejor utilización la ecacuanción de la 
+parábola obtenida es una aproximación. Esto explica que las verdaderas imagenes de la parábola no sean 
+las obtenidas.
 
-%------------------------------------------------------------------------------
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{img/rep_funcion.eps}
-\caption{Ejemplo de figura}
-\label{fig:1}
-\end{center}
-\end{figure}
-%------------------------------------------------------------------------------
+	También se observa que en la representación gráfica las dos curvas son muy parecidas, casi iguales, 
+ello se debe a que al ser la función tratada una curva similar a una parábola.
+
+	Lo que significa que al aplicar el método de Simpson la diferencia que se produce entre las curvas es 
+mínima. Esto se traduce, en que se ha obtenido practicamente un error nulo.
+	  
+	En relación a los datos obtenidos de la integral y su aproximación se puede comprobar que 
+lo expuesto en el párrafo anterior es cierto. Se ha obtenido un error absoluto muy cercano a 
+cero, igual que el error relativo. Esto se explica por la curvatura de la función estudiada. 
 
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
@@ -363,19 +407,28 @@ una memoria RAM de 3,00 GB y como sistema Bardinux 3.4 Beta3 de 32 bits.
   \begin{thebibliography}{10}
 
     \beamertemplatebookbibitems
-    \bibitem[Cálculo integ: Método de Simpson, 2006]{plan}  
-    Cálculo integral. Método de Simpson. 
-    (2006) 
+    \bibitem[Cálculo integ: Método de Simpson, 2006]{calcint}  
+    Método Numérico: Regla de Simpson \\
+    Marvin Hernández (2006) \\
+    Instituto Tecnólogico de Costa Rica
 
     \beamertemplatebookbibitems
-    \bibitem[Cálculo diferencial e integral, 2013]{guia}  
-    Cálculo diferencial e integral. 
-    (1993) 
+    \bibitem[Cálculo diferencial e integral, 2013]{calcdif}  
+    Cálculo diferencial e integral \\
+    Frank Ayres, Jr. (1993) \\
+    Instituto Tecnólogico de México
 
     \beamertemplatebookbibitems
-    \bibitem[URL: CTAN]{latex} 
-    CTAN. {\small $http://www.es.scrib.com/doc/5784437/Metodo-Simpson$}
+    \bibitem[URL: CTAN]{scribd} 
+    Método de Simpson \\
+    Ing Yamil Armando Cerquera Rojas \\
+    {\small $http://es.scribd.com/doc/5784437/Metodo-Simpson$}
 
+
+    \beamertemplatebookbibitems
+    \bibitem[URL: CTEN]{wiki} 
+    Regla de Simpson - Wikipedia \\
+    {\small $http://www.es.wikipedia.org/wiki/Regla_de_Simpson$}
     
 
   \end{thebibliography}
